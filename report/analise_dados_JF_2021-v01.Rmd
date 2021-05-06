@@ -19,8 +19,8 @@ output:
     fig_width: 6
     reference_docx: misc/style.docx
     toc: yes
-subtitle: 'RELATÓRIO: analise_dados_XX_aaaa'
-toc-title: "Sumário"
+subtitle: 'REPORT: analise_dados_JF_2021-v01'
+# toc-title: "Sumário"
 ---
 
 ```{r setup, include=FALSE}
