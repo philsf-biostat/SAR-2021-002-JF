@@ -1,5 +1,5 @@
 ---
-title: "Statistical Analysis Plan for Time until prosthesis failure with different brands in Helios Gesundheit clinics"
+title: "Statistical Analysis Plan for Association between the time to knee prosthesis failure and prosthesis brand in Helios Gesundheit clinics"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** dd/mm/aaaa'
 output:

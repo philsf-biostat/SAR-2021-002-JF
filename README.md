@@ -1,6 +1,6 @@
 # Statistical Analysis for Jens Freitag (Helios Gesundheit, 2021)
 
-Time until knee prosthesis failure with different brands in Helios Gesundheit clinics
+Association between the time to knee prosthesis failure and prosthesis brand in Helios Gesundheit clinics
 
 ## Analyses performed
 
