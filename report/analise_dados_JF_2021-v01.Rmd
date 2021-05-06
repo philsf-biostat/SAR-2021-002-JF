@@ -70,26 +70,49 @@ kable(history)
 <!-- kable(sigs) -->
 <!-- ``` -->
 
-# Lista de abreviaturas
+# Abbreviations
 
-# Introdução
+# Introduction
 
-## Objetivos
+## Objectives
 
-## Recepção e tratamento dos dados
+## Data reception and cleaning
 
-# Metodologia
+# Methods
 
-Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
+## Variables
 
-# Resultados
+### Primary and secondary outcomes
 
-<!-- # Exceções e Desvios do teste -->
+### Covariates
 
-# Conclusões
+## Statistical analyses
 
+### Statistical packages
 
-# Referências
+This analysis was performed using statistical software `R` version `r getRversion()`.
+Packages used for survival analyses were `survival` version `r packageVersion("survival")` and `survminer` version `r packageVersion("survminer")`.
 
-# Apêndice
+# Results
 
+## Study population and follow up
+
+## Mortality
+
+# Exceptions and Observations
+
+# Conclusions
+
+# References
+
+# Appendix
+
+## Exploratory data analysis
+
+## Analytical data-set
+
+Due to confidentiality the data-set used in this analysis cannot be shared online in the public version of this report.
+
+```{r data}
+# pander(dtmin)
+```

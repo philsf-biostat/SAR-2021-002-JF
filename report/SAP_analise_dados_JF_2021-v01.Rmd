@@ -70,49 +70,45 @@ kable(history)
 <!-- kable(sigs) -->
 <!-- ``` -->
 
-# Lista de abreviaturas
+# Abbreviations
 
-# Introdução
+# Introduction
 
-## Contexto
+## Context
 
-## Objetivos
+## Objectives
 
-## Hipóteses
+## Hypotheses
 
-# Limpeza dos dados
+# Data cleaning
 
-# Variáveis do estudo
+# Study variables
 
-## Desfechos primário e secundários
+## Primary and secondary outcomes
 
-## Covariáveis
+## Covariates
 
-# Métodos estatísticos
+# Statistical methods
 
-## Análises estatísticas
+## Statistical analyses
 
-### Análise descritiva
+### Descriptive analyses
 
-### Análise inferencial
+### Inferential analyses
 
-### Modelagem estatística
+### Statistical modeling
 
-## Significância e Intervalos de Confiança
+## Significance and Confidence Intervals
 
-## Tamanho da amostra e Poder
+## Study size and Power
 
-## Softwares utilizados
+### Statistical packages
 
-Esta análise será realizada utilizando-se o software `R` versão `r getRversion()`.
+This analysis will be performed using statistical software `R` version `r getRversion()`.
 
-<!-- # Resultados -->
+# Exceptions and Observations
 
-# Exceções e Observações
+# References
 
-<!-- # Conclusões -->
-
-# Referências
-
-# Apêndice
+# Appendix
 
