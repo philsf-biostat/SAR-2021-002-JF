@@ -1,5 +1,5 @@
 ---
-title: "Análise Estatística de ..."
+title: "Time until prosthesis failure with different brands in Helios Gesundheit clinics"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** dd/mm/aaaa'
 output:
@@ -27,45 +27,56 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 
 ---
 
-**Histórico do documento**
+**Document version**
 
 
-|Versão |Alterações     |
-|:------|:--------------|
-|01     |Versão inicial |
+|Version |Alterations     |
+|:-------|:---------------|
+|01      |Initial version |
 
 ---
 
-# Assinaturas
+# Abbreviations
 
+# Introduction
 
-|Papel           |Nome |Função |Assinatura                 |Data          |
-|:---------------|:----|:------|:--------------------------|:-------------|
-|Elaborador      |Nome |Função |__________________________ |_____________ |
-|Revisado por    |     |       |__________________________ |_____________ |
-|Verificado por  |     |       |__________________________ |_____________ |
-|Aprovação final |     |       |__________________________ |_____________ |
+## Objectives
 
-# Lista de abreviaturas
+## Data reception and cleaning
 
-# Introdução
+# Methods
 
-## Objetivos
+## Variables
 
-## Recepção e tratamento dos dados
+### Primary and secondary outcomes
 
-# Metodologia
+### Covariates
 
-Esta análise foi realizada utilizando-se o software `R` versão 4.0.5.
+## Statistical analyses
 
-# Resultados
+### Statistical packages
 
-<!-- # Exceções e Desvios do teste -->
+This analysis was performed using statistical software `R` version 4.0.5.
+Packages used for survival analyses were `survival` version 3.2.10 and `survminer` version 0.4.9.
 
-# Conclusões
+# Results
 
+## Study population and follow up
 
-# Referências
+## Mortality
 
-# Apêndice
+# Exceptions and Observations
+
+# Conclusions
+
+# References
+
+# Appendix
+
+## Exploratory data analysis
+
+## Analytical data-set
+
+Due to confidentiality the data-set used in this analysis cannot be shared online in the public version of this report.
+
 

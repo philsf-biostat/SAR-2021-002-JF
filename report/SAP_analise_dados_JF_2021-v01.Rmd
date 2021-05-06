@@ -1,5 +1,5 @@
 ---
-title: "Plano de Análise Estatística de ..."
+title: "Statistical Analysis Plan for Time until prosthesis failure with different brands in Helios Gesundheit clinics"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** dd/mm/aaaa'
 output:
@@ -30,89 +30,65 @@ options(scipen = 999)
 library(pander)
 library(knitr)
 library(philsfmisc)
+panderOptions('table.style', 'rmarkdown')
+panderOptions('table.split.table', Inf)
 ```
 
 ---
 
-**Histórico do documento**
+**Document version**
 
 ```{r, echo = FALSE}
 Version <- c("01")
-Changes <- c("Versão inicial")
+Changes <- c("Initial version")
 history <- cbind(Version, Changes)
-colnames(history) <- c("Versão", "Alterações")
+colnames(history) <- c("Version", "Alterations")
 # pander(history, split.cells = 70)
 kable(history)
 ```
 
 ---
 
-# Assinaturas
 
-```{r, echo=FALSE}
-sig.field <- "__________________________"
-date.field <- "_____________"
-Stat <- c("Elaborador", "Nome", "Função", sig.field, date.field)
-Reviewer <- c("Revisado por", "", "", sig.field, date.field)
-Approver <- c("Verificado por", "", "", sig.field, date.field)
-Final.Approver <- c("Aprovação final", "", "", sig.field, date.field)
+# Abbreviations
 
-sigs <- rbind(
-  Stat
-  , Reviewer
-  , Approver
-  , Final.Approver
-  )
-rownames(sigs) <- NULL
-colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
+# Introduction
 
-# pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
-kable(sigs)
-```
+## Context
 
-# Lista de abreviaturas
+## Objectives
 
-# Introdução
+## Hypotheses
 
-## Contexto
+# Data cleaning
 
-## Objetivos
+# Study variables
 
-## Hipóteses
+## Primary and secondary outcomes
 
-# Limpeza dos dados
+## Covariates
 
-# Variáveis do estudo
+# Statistical methods
 
-## Desfechos primário e secundários
+## Statistical analyses
 
-## Covariáveis
+### Descriptive analyses
 
-# Métodos estatísticos
+### Inferential analyses
 
-## Análises estatísticas
+### Statistical modeling
 
-### Análise descritiva
+## Significance and Confidence Intervals
 
-### Análise inferencial
+## Study size and Power
 
-### Modelagem estatística
+### Statistical packages
 
-## Significância e Intervalos de Confiança
+This analysis will be performed using statistical software `R` version `r getRversion()`.
 
-## Tamanho da amostra e Poder
+# Exceptions and Observations
 
-## Softwares utilizados
+# References
 
-Esta análise será realizada utilizando-se o software `R` versão `r getRversion()`.
-
-<!-- # Resultados -->
-
-# Exceções e Observações
-
-<!-- # Conclusões -->
-
-# Referências
-
-# Apêndice
+# Appendix
 
