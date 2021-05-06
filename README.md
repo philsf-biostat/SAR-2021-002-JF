@@ -1,6 +1,6 @@
-# Time until prosthesis failure in different brands (Helios Gesundheit, 2021)
+# Statistical Analysis for Jens Freitag (Helios Gesundheit, 2021)
 
-Time until prosthesis failure in different brands
+Time until prosthesis failure with different brands in Helios Gesundheit clinics
 
 ## Analyses performed
 
