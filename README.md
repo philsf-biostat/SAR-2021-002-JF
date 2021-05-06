@@ -49,10 +49,10 @@ Association between the time to knee prosthesis failure and prosthesis brand in 
 [pdf-v02]: report/analise_dados_JF_2021-v02.pdf?raw=true
 [v02-project]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/xxx
 
-## Releases
+<!-- ## Releases -->
 
-In the link below you can check all contents released, both finished and preliminary products.
+<!-- In the link below you can check all contents released, both finished and preliminary products. -->
 
-[View all released versions][releases].
+<!-- [View all released versions][releases]. -->
 
-[releases]: https://github.com/philsf-biostat/analise_dados_JF_2021/releases/
+<!-- [releases]: https://github.com/philsf-biostat/analise_dados_JF_2021/releases/ -->
