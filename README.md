@@ -8,7 +8,7 @@ Association between the time to knee prosthesis failure and prosthesis brand in 
 1. Inferential analysis
 1. Survival analysis
 
-**SAP** -- Statistical Analysis Plan
+**SAP** - Statistical Analysis Plan
 
 - [Online visualization][sapviz-v01]
 - Download
@@ -18,8 +18,6 @@ Association between the time to knee prosthesis failure and prosthesis brand in 
 [sappdf-v01]: report/SAP_analise_dados_JF_2021-v01.pdf?raw=true
 
 ## Analysis report
-
-[View the releases][releases].
 
 <!-- **Version 02** - [Ongoing][milestone-v02]. -->
 <!-- **Version 02** - [Concluded][milestone-v02]. -->
@@ -33,13 +31,12 @@ Association between the time to knee prosthesis failure and prosthesis brand in 
 **Version 01** - [Ongoing][milestone-v01].
 <!-- **Version 01** - [Concluded][milestone-v01]. -->
 
-[Planning][v01-project].
-
 - [Online visualization][reportviz-v01]
 - Download
 <!-- - [Download][pdf-v01] -->
 
-[releases]: https://github.com/philsf-biostat/analise_dados_JF_2021/releases/
+[Activities planned for report version 01][v01-project].
+
 [milestone-v01]: https://github.com/philsf-biostat/analise_dados_JF_2021/milestone/1
 [reportviz-v01]: report/analise_dados_JF_2021-v01.md
 [docx-v01]: report/analise_dados_JF_2021-v01.docx?raw=true
@@ -52,3 +49,10 @@ Association between the time to knee prosthesis failure and prosthesis brand in 
 [pdf-v02]: report/analise_dados_JF_2021-v02.pdf?raw=true
 [v02-project]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/xxx
 
+<!-- ## Releases -->
+
+<!-- In the link below you can check all contents released, both finished and preliminary products. -->
+
+<!-- [View all released versions][releases]. -->
+
+<!-- [releases]: https://github.com/philsf-biostat/analise_dados_JF_2021/releases/ -->
