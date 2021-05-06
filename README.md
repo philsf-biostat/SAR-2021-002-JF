@@ -22,6 +22,7 @@ Time until prosthesis failure with different brands in Helios Gesundheit clinics
 [View the releases][releases].
 
 <!-- **Version 02** - [Ongoing][milestone-v02]. -->
+<!-- **Version 02** - [Concluded][milestone-v02]. -->
 
 <!-- [Planning][v02-project]. -->
 
@@ -30,6 +31,7 @@ Time until prosthesis failure with different brands in Helios Gesundheit clinics
 <!-- <\!-- - [Download][pdf-v02] -\-> -->
 
 **Version 01** - [Ongoing][milestone-v01].
+<!-- **Version 01** - [Concluded][milestone-v01]. -->
 
 [Planning][v01-project].
 
