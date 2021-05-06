@@ -1,5 +1,5 @@
 ---
-title: "Plano de Análise Estatística de ..."
+title: "Statistical Analysis Plan for Time until prosthesis failure with different brands in Helios Gesundheit clinics"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** dd/mm/aaaa'
 output:
@@ -19,7 +19,7 @@ output:
     fig_width: 6
     reference_docx: misc/style-SAP.docx
     toc: yes
-subtitle: 'SAP: SAP_JF_2021-v01'
+subtitle: 'SAP: SAP_analise_dados_JF_2021-v01'
 # toc-title: "Sumário"
 ---
 
@@ -27,68 +27,55 @@ subtitle: 'SAP: SAP_JF_2021-v01'
 
 ---
 
-**Histórico do documento**
+**Document version**
 
 
-|Versão |Alterações     |
-|:------|:--------------|
-|01     |Versão inicial |
+|Version |Alterations     |
+|:-------|:---------------|
+|01      |Initial version |
 
 ---
 
-# Assinaturas
 
+# Abbreviations
 
-|Papel           |Nome |Função |Assinatura                 |Data          |
-|:---------------|:----|:------|:--------------------------|:-------------|
-|Elaborador      |Nome |Função |__________________________ |_____________ |
-|Revisado por    |     |       |__________________________ |_____________ |
-|Verificado por  |     |       |__________________________ |_____________ |
-|Aprovação final |     |       |__________________________ |_____________ |
+# Introduction
 
-# Lista de abreviaturas
+## Context
 
-# Introdução
+## Objectives
 
-## Contexto
+## Hypotheses
 
-## Objetivos
+# Data cleaning
 
-## Hipóteses
+# Study variables
 
-# Limpeza dos dados
+## Primary and secondary outcomes
 
-# Variáveis do estudo
+## Covariates
 
-## Desfechos primário e secundários
+# Statistical methods
 
-## Covariáveis
+## Statistical analyses
 
-# Métodos estatísticos
+### Descriptive analyses
 
-## Análises estatísticas
+### Inferential analyses
 
-### Análise descritiva
+### Statistical modeling
 
-### Análise inferencial
+## Significance and Confidence Intervals
 
-### Modelagem estatística
+## Study size and Power
 
-## Significância e Intervalos de Confiança
+### Statistical packages
 
-## Tamanho da amostra e Poder
+This analysis will be performed using statistical software `R` version 4.0.5.
 
-## Softwares utilizados
+# Exceptions and Observations
 
-Esta análise será realizada utilizando-se o software `R` versão 4.0.5.
+# References
 
-<!-- # Resultados -->
-
-# Exceções e Observações
-
-<!-- # Conclusões -->
-
-# Referências
-
-# Apêndice
+# Appendix
 
