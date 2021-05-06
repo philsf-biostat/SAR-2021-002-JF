@@ -1,5 +1,5 @@
 ---
-title: "Association between the time to knee prosthesis failure and prosthesis brand in Helios Gesundheit clinics"
+title: "Association between the time to knee prosthesis failure and prosthesis brand in Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** dd/mm/aaaa'
 output:
