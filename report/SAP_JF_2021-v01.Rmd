@@ -1,7 +1,7 @@
 ---
 title: "Plano de Análise Estatística de ..."
-author: '**De:** Felipe Figueiredo **Para:** ___'
-date: '**Data: ** dd/mm/aaaa'
+author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
+date: '**Date: ** dd/mm/aaaa'
 output:
   html_document:
     fig_caption: yes
@@ -20,7 +20,7 @@ output:
     reference_docx: misc/style-SAP.docx
     toc: yes
 subtitle: 'SAP: SAP_JF_2021-v01'
-toc-title: "Sumário"
+# toc-title: "Sumário"
 ---
 
 ```{r setup, include=FALSE}
