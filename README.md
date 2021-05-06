@@ -5,7 +5,7 @@ Time until prosthesis failure with different brands in Helios Gesundheit clinics
 ## Analyses performed
 
 1. Descriptive analysis
-<!-- 1. Inferential analysis -->
+1. Inferential analysis
 1. Survival analysis
 
 **SAP** -- Statistical Analysis Plan
