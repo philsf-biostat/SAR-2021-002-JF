@@ -4,18 +4,15 @@ Time until prosthesis failure in different brands
 
 ## Analyses performed
 
-1. Survival Analysis ([Planning][proj-v01])
-<!-- 2. yyy ([Planning][proj-yyy]) -->
-<!-- 3. zzz ([Planning][proj-zzz]) -->
+1. Descriptive analysis
+<!-- 1. Inferential analysis -->
+1. Survival analysis
 
 **SAP** -- Statistical Analysis Plan
 
 - [Online visualization][sapviz-v01]
 - [Download][sappdf-v01]
 
-[proj-v01]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/1
-[proj-yyy]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/yyy
-[proj-zzz]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/zzz
 [sapviz-v01]: report/SAP_analise_dados_JF_2021-v01.md
 [sappdf-v01]: report/SAP_analise_dados_JF_2021-v01.pdf?raw=true
 
