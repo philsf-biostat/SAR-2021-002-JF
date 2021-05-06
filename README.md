@@ -11,7 +11,8 @@ Time until prosthesis failure in different brands
 **SAP** -- Statistical Analysis Plan
 
 - [Online visualization][sapviz-v01]
-- [Download][sappdf-v01]
+- Download
+<!-- - [Download][sappdf-v01] -->
 
 [sapviz-v01]: report/SAP_analise_dados_JF_2021-v01.md
 [sappdf-v01]: report/SAP_analise_dados_JF_2021-v01.pdf?raw=true
