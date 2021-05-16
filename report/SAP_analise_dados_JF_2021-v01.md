@@ -141,7 +141,7 @@ Table: **Table 2** Mock-up example of descriptive analysis table
 
 ### Inferential analyses
 
-The main study outcome (time-to-failure) will be presented in a Kaplan-Meier plot, and table
+The main study outcome (time-to-failure) will be presented in a Kaplan-Meier plot.
 
 Time-to-failure will be cross-analyzed with all selected categorical variables, including gender, smoking status and joint.
 Univariate analyses will be performed using the log-rank test.
