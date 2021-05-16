@@ -147,6 +147,8 @@ Univariate analyses will be performed using the log-rank test.
 
 ### Statistical modeling
 
+Study outcomes will not be adjusted for covariates like age, gender or BMI.
+
 ## Significance and Confidence Intervals
 
 ## Study size and Power
