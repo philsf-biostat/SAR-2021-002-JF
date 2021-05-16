@@ -1,7 +1,7 @@
 ---
 title: "Statistical Analysis Plan for Time until implant failure in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
-date: '**Date: ** dd/mm/aaaa'
+date: '**Date: ** 2021-05-16'
 output:
   html_document:
     fig_caption: yes
