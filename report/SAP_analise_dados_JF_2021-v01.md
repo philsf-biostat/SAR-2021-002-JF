@@ -1,5 +1,5 @@
 ---
-title: "Statistical Analysis Plan for Association between the time to knee prosthesis failure and prosthesis brand in Helios Klinikum Berlin-Buch hospitals"
+title: "Statistical Analysis Plan for Time until implant failure in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** dd/mm/aaaa'
 output:
@@ -44,6 +44,8 @@ subtitle: 'SAP: SAP_analise_dados_JF_2021-v01'
 ## Context
 
 ## Objectives
+
+Evaluate the time-to-failure in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
 
 ## Hypotheses
 
