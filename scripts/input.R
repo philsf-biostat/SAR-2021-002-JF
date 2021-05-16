@@ -1,8 +1,11 @@
 # setup -------------------------------------------------------------------
 library(readxl)
-library(data.table)
-# library(tidyverse)
-
+# library(data.table)
+library(tidyverse)
+library(lubridate)
+library(janitor)
+library(skimr)
+library(labelled)
 
 # data loading ------------------------------------------------------------
 # raw.data <- fread("dataset/file.csv")
@@ -10,10 +13,65 @@ library(data.table)
 
 # raw.data <- data.table(raw.data)
 
+na_dates <- c("xxxxxxxxxx", "xxxxxxxxxxx", "xxxxxxxxxxxx", "xxxxxxxxxxxxx", "xxxxxxxxxxxxxx", "xxxxxxxxxxxxxxx")
+df.raw <- janitor::clean_names(
+  read_excel("dataset/Univation DATAMASTER - english .xlsx",
+             range = 'A2:AH86',
+             na = na_dates,
+             )
+  )
+
 # data cleaning -----------------------------------------------------------
 
+analytic <- df.raw %>%
+  # rename bmi column
+  rename(bmi = b_m_i) %>%
+  # remove empty patients
+  filter(!str_detect(name, "Patient")) %>%
+  # select analytic columns
+  select(
+    id,
+    gender,
+    age,
+    bmi,
+    joint,
+    uka_date,
+    # op_time,
+    loosening_date,
+    # rev_date,
+    ) %>%
+  # set var types
+  mutate(
+    age = as.numeric(age), # use given age
+    # age = floor(as.duration( interval(df$birth, df$uka_date))/dyears()), # compute age from dates
+    bmi = as.numeric(bmi),
+  )
 
 
 # data wrangling ----------------------------------------------------------
 
+analytic <- analytic %>%
+  mutate(
+    td = as.duration( interval(uka_date, loosening_date) ),
+    time = case_when(
+      is.na(td) ~ as.duration(max(td, na.rm = TRUE))/dmonths(1),
+      TRUE ~ td/dmonths(1)
+    ),
+    event = case_when(
+      is.na(td) ~ 0,
+      TRUE ~ 1
+    ),
+  )
+# print(analytic %>% skim())
 
+# labels ------------------------------------------------------------------
+
+var_labels <- list(
+  gender = "Gender",
+  age = "Age",
+  bmi = "BMI",
+  joint = "Joint",
+  event = "Loosening"
+  )
+var_label(analytic) <- var_labels
+# analytic <- analytic %>% set_value_labels(event = labelled(c("Success" = 0, "Failure" = 1)))
