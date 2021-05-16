@@ -121,6 +121,7 @@ Upon inspection of the dates of first surgery and dates of loosening for individ
 The event of interest in this analysis is the diagnosis of implant loosening.
 The time until the event of interest will be computed between the date of first surgery and date of implant loosening.
 Patients that reached study end date without implant failure will be censored.
+Considering the study period of approximately 4 years, Time under observation will be measured in years.
 
 ## Covariates
 
