@@ -53,6 +53,15 @@ subtitle: 'SAP: SAP_analise_dados_JF_2021-v01'
 
 # Study variables
 
+
+| id  | gender | age | bmi | joint | uka_date | loosening_date | event | time |
+|:---:|:------:|:---:|:---:|:-----:|:--------:|:--------------:|:-----:|:----:|
+|  1  |        |     |     |       |          |                |       |      |
+|  2  |        |     |     |       |          |                |       |      |
+|  3  |        |     |     |       |          |                |       |      |
+| ... |        |     |     |       |          |                |       |      |
+| 82  |        |     |     |       |          |                |       |      |
+
 ## Primary and secondary outcomes
 
 ## Covariates
@@ -62,6 +71,21 @@ subtitle: 'SAP: SAP_analise_dados_JF_2021-v01'
 ## Statistical analyses
 
 ### Descriptive analyses
+
+
+| Characteristic | N |
+|:--------------:|:-:|
+|     Gender     |   |
+|       M        |   |
+|       W        |   |
+|      Age       |   |
+|      BMI       |   |
+|     Joint      |   |
+|       L        |   |
+|       R        |   |
+|   Loosening    |   |
+|    Success     |   |
+|    Failure     |   |
 
 ### Inferential analyses
 
