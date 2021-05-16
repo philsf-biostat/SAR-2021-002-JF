@@ -68,7 +68,7 @@ Evaluate the time-to-failure in a sample of knee prosthesis patient data from th
 source("scripts/input.R", encoding = 'UTF-8')
 ```
 
-The data will be pre-processed, reararranged and cleaned as follows:
+The data will be pre-processed, rearranged and cleaned as follows:
 
 - All variables will be standardized
   - variable names will be standardized for processing purposes, labels will be attributed for reporting purposes;
@@ -97,7 +97,7 @@ Study variables selected for this analysis are:
 - Date of failure diagnosis
 
 Other variables from the raw dataset will not be used for the analysis.
-The event occurence and time under observation will be computed as defined in the section 4.1.
+The event occurrence and time under observation will be computed as defined in the section 4.1.
 
 After all data cleaning and variable selection procedures the analytic dataset should have a similar structure as shown in Table 1.
 
@@ -110,7 +110,7 @@ pander(tab_data, split.table = Inf)
 
 Table: **Table1** Mock-up example of analytic dataset
 
-The analytic dataset will be included in the private version of the report, and will be ommitted from the public version of the report.
+The analytic dataset will be included in the private version of the report, and will be omitted from the public version of the report.
 
 ## Primary and secondary outcomes
 
