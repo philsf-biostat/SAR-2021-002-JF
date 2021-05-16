@@ -39,6 +39,8 @@ subtitle: 'SAP: SAP_analise_dados_JF_2021-v01'
 
 # Abbreviations
 
+- BMI: body mass index
+
 # Introduction
 
 ## Context
