@@ -59,8 +59,8 @@ analytic <- analytic %>%
   mutate(
     td = as.duration( interval(uka_date, loosening_date) ),
     time = case_when(
-      is.na(td) ~ as.duration(max(td, na.rm = TRUE))/dmonths(1),
-      TRUE ~ td/dmonths(1)
+      is.na(td) ~ as.duration(max(td, na.rm = TRUE))/dyears(1),
+      TRUE ~ td/dyears(1)
     ),
     event = case_when(
       is.na(td) ~ 0,
