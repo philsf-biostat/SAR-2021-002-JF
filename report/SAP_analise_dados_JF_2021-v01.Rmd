@@ -158,6 +158,9 @@ Study outcomes will not be adjusted for covariates like age, gender or BMI.
 
 ## Significance and Confidence Intervals
 
+All analyses will be performed using the significance level of 5%.
+All significance hypothesis tests and confidence intervals computed will be two-tailed.
+
 ## Study size and Power
 
 ### Statistical packages
