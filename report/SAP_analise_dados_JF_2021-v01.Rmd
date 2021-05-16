@@ -88,9 +88,11 @@ Two observations appear to be test data (Names: Patient 1, Patient 2) and will b
 
 # Study variables
 
+The analytic dataset will be composed from a selection of variables obtained from the original dataset.
 Study variables selected for this analysis are:
 
 - Gender
+- Date of birth
 - Age
 - BMI
 - Joint operated on
