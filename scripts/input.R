@@ -61,6 +61,7 @@ analytic <- analytic %>%
       is.na(td) ~ 0,
       TRUE ~ 1
     ),
+    group = factor(event, labels = c("Success", "Failure"))
   )
 # print(analytic %>% skim())
 
