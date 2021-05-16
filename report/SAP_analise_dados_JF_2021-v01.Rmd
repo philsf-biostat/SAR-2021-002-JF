@@ -68,7 +68,38 @@ Evaluate the time-to-failure in a sample of knee prosthesis patient data from th
 source("scripts/input.R", encoding = 'UTF-8')
 ```
 
+The data will be pre-processed, reararranged and cleaned as follows:
+
+- All variables will be standardized
+  - variable names will be standardized for processing purposes, labels will be attributed for reporting purposes;
+  - observations will be standardized according to variable type (numeric, dates, categorical, etc)
+- All categorical variables will be standardized according to their categories pre-defined in the dictionary provided
+  - Gender: M/W
+  - Smoking status: No/Yes
+  - Joint: L/R
+- All dates will be standardized and invalid values removed
+  - All invalid values like "xxxxxxxxxx",  "xxxxxxxxxxxxxxx", etc will be removed before data processing;
+- Age will be computed as whole years between birth and first surgery, with calendar accuracy;
+- 
+  
+Two observations appear to be test data (Names: Patient 1, Patient 2) and will be removed.
+
 # Study variables
+
+Study variables selected for this analysis are:
+
+- Gender
+- Age
+- BMI
+- Joint operated on
+- Smoking status
+- Date of surgery
+- Date of failure diagnosis
+
+Other variables from the raw dataset will not be used for the analysis.
+The event occurence and time under observation will be computed as defined in the section 4.1.
+
+After all data cleaning and variable selection procedures the analytic dataset should have a similar structure as shown in Table 1.
 
 ```{r analytic dataset}
 tab_data <- data.frame(
@@ -76,6 +107,10 @@ tab_data <- data.frame(
   "gender" = "", "age"="", "bmi"="", "joint"="", "uka_date"="", "loosening_date"="", event="", time="")
 pander(tab_data, split.table = Inf)
 ```
+
+Table: **Table1** Mock-up example of analytic dataset
+
+The analytic dataset will be included in the private version of the report, and will be ommitted from the public version of the report.
 
 ## Primary and secondary outcomes
 
