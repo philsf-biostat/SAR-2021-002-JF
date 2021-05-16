@@ -35,6 +35,7 @@ analytic <- df.raw %>%
     age,
     bmi,
     joint,
+    smoker,
     uka_date,
     # op_time,
     loosening_date,
@@ -45,6 +46,9 @@ analytic <- df.raw %>%
     age = as.numeric(age), # use given age
     # age = floor(as.duration( interval(df$birth, df$uka_date))/dyears()), # compute age from dates
     bmi = as.numeric(bmi),
+    # Set Smoker as factor
+    smoker = factor(smoker, labels = c("Yes", "No")),
+    smoker = relevel(smoker, "No")
   )
 
 
@@ -72,6 +76,7 @@ var_labels <- list(
   age = "Age",
   bmi = "BMI",
   joint = "Joint",
+  smoker = "Smoker",
   event = "Loosening"
   )
 var_label(analytic) <- var_labels
