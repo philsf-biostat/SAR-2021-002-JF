@@ -1,5 +1,5 @@
 ---
-title: "Association between the time to knee prosthesis failure and prosthesis brand in Helios Klinikum Berlin-Buch hospitals"
+title: "Time until implant failure in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** dd/mm/aaaa'
 output:
@@ -58,6 +58,10 @@ kable(history)
 ## Data reception and cleaning
 
 # Methods
+
+```{r results, include=FALSE}
+source("scripts/results.R", encoding = 'UTF-8')
+```
 
 ## Variables
 

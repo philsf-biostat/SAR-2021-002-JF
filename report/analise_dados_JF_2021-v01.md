@@ -1,5 +1,5 @@
 ---
-title: "Association between the time to knee prosthesis failure and prosthesis brand in Helios Klinikum Berlin-Buch hospitals"
+title: "Time until implant failure in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** dd/mm/aaaa'
 output:
@@ -45,6 +45,8 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 ## Data reception and cleaning
 
 # Methods
+
+
 
 ## Variables
 
