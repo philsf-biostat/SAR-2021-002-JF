@@ -156,13 +156,20 @@ All significance hypothesis tests and confidence intervals computed will be two-
 
 ## Study size and Power
 
+N/A.
+
 ### Statistical packages
 
 This analysis will be performed using statistical software `R` version 4.0.5.
 
 # Exceptions and Observations
 
+None.
+
 # References
+
+N/A.
 
 # Appendix
 
+N/A.
