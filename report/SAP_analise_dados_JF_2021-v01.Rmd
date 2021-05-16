@@ -114,7 +114,15 @@ The analytic dataset will be included in the private version of the report, and 
 
 ## Primary and secondary outcomes
 
+Upon inspection of the dates of first surgery and dates of loosening for individual patients, it appears the study period is delimited between 2017-05-10 and 2021-02-25, so these will be the dates considered as study start and end.
+
+The event of interest in this analysis is the diagnosis of implant loosening.
+The time until the event of interest will be computed between the date of first surgery and date of implant loosening.
+Patients that reached study end date without implant failure will be censored.
+
 ## Covariates
+
+Study outcomes will not be adjusted for covariates like age, gender or BMI.
 
 # Statistical methods
 
