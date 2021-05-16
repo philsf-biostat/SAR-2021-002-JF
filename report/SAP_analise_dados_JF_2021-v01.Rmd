@@ -62,6 +62,10 @@ kable(history)
 
 # Data cleaning
 
+```{r data, include=FALSE}
+source("scripts/input.R", encoding = 'UTF-8')
+```
+
 # Study variables
 
 ## Primary and secondary outcomes

@@ -46,6 +46,8 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 
 # Methods
 
+
+
 ## Variables
 
 ### Primary and secondary outcomes
