@@ -66,7 +66,7 @@ analytic <- analytic %>%
       is.na(td) ~ 0,
       TRUE ~ 1
     ),
-    group = factor(event, labels = c("Success", "Failure"))
+    status = factor(event, labels = c("Success", "Failure"))
   )
 # print(analytic %>% skim())
 
@@ -78,6 +78,7 @@ var_labels <- list(
   bmi = "BMI",
   joint = "Joint",
   smoker = "Smoker",
+  status = "Post-op status",
   event = "Loosening"
   )
 var_label(analytic) <- var_labels
