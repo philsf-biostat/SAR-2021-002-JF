@@ -67,6 +67,10 @@ Packages used for survival analyses were `survival` version 3.2.10 and `survmine
 
 ## Mortality
 
+![](../figures/km_overall.png)
+
+**Figure 1** Prosthesis loosening.
+
 # Exceptions and Observations
 
 # Conclusions
@@ -76,6 +80,17 @@ Packages used for survival analyses were `survival` version 3.2.10 and `survmine
 # Appendix
 
 ## Exploratory data analysis
+
+![](../figures/km_gender.png)
+
+**Figure 2** Prostheses loosening by gender.
+
+![](../figures/km_smoker.png)
+
+**Figure 3** Prosthesis loosening by smoking status.
+
+![](../figures/km_joint.png)
+**Figure 4** Prosthesis loosening by joint operated.
 
 ## Analytical data-set
 
