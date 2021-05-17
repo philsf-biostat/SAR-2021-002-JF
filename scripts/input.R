@@ -15,8 +15,8 @@ library(labelled)
 
 na_dates <- c("xxxxxxxxxx", "xxxxxxxxxxx", "xxxxxxxxxxxx", "xxxxxxxxxxxxx", "xxxxxxxxxxxxxx", "xxxxxxxxxxxxxxx")
 df.raw <- janitor::clean_names(
-  read_excel("dataset/Univation DATAMASTER - english .xlsx",
-             range = 'A2:AH86',
+  read_excel("dataset/Univation DATAMASTER-english2.xlsx",
+             range = 'A2:AH89',
              na = na_dates,
              )
   )
