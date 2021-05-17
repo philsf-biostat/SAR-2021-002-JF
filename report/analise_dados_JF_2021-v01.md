@@ -65,6 +65,25 @@ Packages used for survival analyses were `survival` version 3.2.10 and `survmine
 
 ## Study population and follow up
 
+
+|**Characteristic** |**N = 87** |
+|:------------------|:----------|
+|Gender             |           |
+|M                  |37 (43%)   |
+|W                  |50 (57%)   |
+|Age                |61 (11)    |
+|BMI                |29.8 (3.9) |
+|Smoker             |20 (25%)   |
+|Unknown            |7          |
+|Joint              |           |
+|L                  |47 (54%)   |
+|R                  |40 (46%)   |
+|Post-op status     |           |
+|Success            |67 (77%)   |
+|Failure            |20 (23%)   |
+
+Table: **Table 1** Patient characteristics.
+
 ## Mortality
 
 # Exceptions and Observations

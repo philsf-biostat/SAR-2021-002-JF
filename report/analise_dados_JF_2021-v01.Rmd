@@ -80,6 +80,12 @@ Packages used for survival analyses were `survival` version `r packageVersion("s
 
 ## Study population and follow up
 
+```{r}
+desc_tab %>% as_kable()
+```
+
+Table: **Table 1** Patient characteristics.
+
 ## Mortality
 
 # Exceptions and Observations
