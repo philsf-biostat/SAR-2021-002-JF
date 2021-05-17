@@ -82,6 +82,13 @@ Packages used for survival analyses were `survival` version `r packageVersion("s
 
 ## Mortality
 
+```{r survival table, warning=FALSE}
+inf_tab %>% as_kable()
+```
+
+Table: **Table 2** Prosthesis survival probabilities after 2-years of follow up.
+p-value: groups compared with the Log-rank test.
+
 # Exceptions and Observations
 
 # Conclusions
