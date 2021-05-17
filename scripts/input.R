@@ -92,3 +92,6 @@ var_label(analytic) <- var_labels
 # all_equal(tail(analytic.old, 2), tail(analytic, 2)) # last 2 rows, after new patients
 
 # both checks passed, no changes in previously known data
+
+# analytic[81:85, ] %>% skim()
+# new data looks ok
