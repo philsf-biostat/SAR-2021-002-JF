@@ -70,16 +70,16 @@ Packages used for survival analyses were `survival` version 3.2.10 and `survmine
 
 |**Characteristic** |2-year prosthesis survival |**p-value** |
 |:------------------|:--------------------------|:-----------|
-|Overall            |78% (70%, 88%)             |            |
-|Gender             |                           |0.8         |
-|M                  |79% (67%, 94%)             |            |
-|W                  |77% (66%, 90%)             |            |
+|Overall            |79% (71%, 88%)             |            |
+|Gender             |                           |0.7         |
+|M                  |81% (69%, 95%)             |            |
+|W                  |78% (67%, 90%)             |            |
 |Smoker             |                           |0.4         |
 |No                 |82% (72%, 92%)             |            |
 |Yes                |75% (58%, 97%)             |            |
-|Joint              |                           |>0.9        |
-|L                  |78% (67%, 91%)             |            |
-|R                  |78% (66%, 93%)             |            |
+|Joint              |                           |0.8         |
+|L                  |79% (68%, 91%)             |            |
+|R                  |80% (69%, 93%)             |            |
 
 Table: **Table 2** Prosthesis survival probabilities after 2-years of follow up.
 p-value: groups compared with the Log-rank test.
