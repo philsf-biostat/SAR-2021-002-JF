@@ -80,7 +80,7 @@ Packages used for survival analyses were `survival` version `r packageVersion("s
 
 ## Study population and follow up
 
-## Mortality
+## Time to prosthesis failure
 
 ```{r survival table, warning=FALSE}
 inf_tab %>% as_kable()

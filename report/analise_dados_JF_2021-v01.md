@@ -65,7 +65,7 @@ Packages used for survival analyses were `survival` version 3.2.10 and `survmine
 
 ## Study population and follow up
 
-## Mortality
+## Time to prosthesis failure
 
 
 |**Characteristic** |2-year prosthesis survival |**p-value** |
