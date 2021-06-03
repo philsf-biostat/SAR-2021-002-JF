@@ -38,6 +38,9 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 
 # Abbreviations
 
+- BMI: body-mass index
+- SD: standard deviation
+
 # Introduction
 
 ## Objectives
@@ -64,6 +67,32 @@ Packages used for survival analyses were `survival` version 3.2.10 and `survmine
 # Results
 
 ## Study population and follow up
+
+The study population was composed of 87 participants, contributing to a total of 217 person-years of observation (Table 1).
+Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
+The typical BMI observed was approximately 30 kg/m²
+Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
+
+The prosthesis failure was detected in 20 participants, accounting for approximately one quarter of the study population.
+
+
+|**Characteristic** |**N = 87** |
+|:------------------|:----------|
+|Gender             |           |
+|M                  |37 (43%)   |
+|W                  |50 (57%)   |
+|Age                |61 (11)    |
+|BMI                |29.8 (3.9) |
+|Smoker             |20 (25%)   |
+|Unknown            |7          |
+|Joint              |           |
+|L                  |47 (54%)   |
+|R                  |40 (46%)   |
+|Post-op status     |           |
+|Success            |67 (77%)   |
+|Failure            |20 (23%)   |
+
+Table: **Table 1** Patient characteristics.
 
 ## Mortality
 
