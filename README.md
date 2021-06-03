@@ -11,8 +11,8 @@ Time until implant failure in a knee prosthesis sub-population of the Helios Kli
 **SAP** - Statistical Analysis Plan
 
 - [Online visualization][sapviz-v01]
-- Download
-<!-- - [Download][sappdf-v01] -->
+- [Download][sappdf-v01]
+<!-- - Download -->
 
 [sapviz-v01]: report/SAP_analise_dados_JF_2021-v01.md
 [sappdf-v01]: report/SAP_analise_dados_JF_2021-v01.pdf?raw=true
