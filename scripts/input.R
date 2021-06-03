@@ -15,8 +15,8 @@ library(labelled)
 
 na_dates <- c("xxxxxxxxxx", "xxxxxxxxxxx", "xxxxxxxxxxxx", "xxxxxxxxxxxxx", "xxxxxxxxxxxxxx", "xxxxxxxxxxxxxxx")
 df.raw <- janitor::clean_names(
-  read_excel("dataset/Univation DATAMASTER - english .xlsx",
-             range = 'A2:AH86',
+  read_excel("dataset/Univation DATAMASTER-english2.xlsx",
+             range = 'A2:AH89',
              na = na_dates,
              )
   )
@@ -66,7 +66,7 @@ analytic <- analytic %>%
       is.na(td) ~ 0,
       TRUE ~ 1
     ),
-    group = factor(event, labels = c("Success", "Failure"))
+    status = factor(event, labels = c("Success", "Failure"))
   )
 # print(analytic %>% skim())
 
@@ -78,7 +78,20 @@ var_labels <- list(
   bmi = "BMI",
   joint = "Joint",
   smoker = "Smoker",
+  status = "Post-op status",
   event = "Loosening"
   )
 var_label(analytic) <- var_labels
 # analytic <- analytic %>% set_value_labels(event = labelled(c("Success" = 0, "Failure" = 1)))
+
+# double check new data ---------------------------------------------------
+
+# analytic <- remove_var_label(analytic)
+# analytic.old <- analytic %>% rename(status = group)
+# all.equal(head(analytic.old, 80), head(analytic, 80)) # first 80 rows, before "Patient 1"
+# all_equal(tail(analytic.old, 2), tail(analytic, 2)) # last 2 rows, after new patients
+
+# both checks passed, no changes in previously known data
+
+# analytic[81:85, ] %>% skim()
+# new data looks ok
