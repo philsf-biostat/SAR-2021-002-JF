@@ -4,10 +4,12 @@
 # library(skimr) # skim
 # library(tableone)
 # library(gmodels) # CrossTable
+library(survival)
 library(gtsummary)
 
 # exploratory -------------------------------------------------------------
 
+person_years <- pyears(Surv(time, event) ~ 1, analytic, scale = 1)
 
 # tables ------------------------------------------------------------------
 

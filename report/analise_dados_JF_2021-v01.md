@@ -68,11 +68,12 @@ Packages used for survival analyses were `survival` version 3.2.10 and `survmine
 
 ## Study population and follow up
 
-The study population was composed of 87 participants, of which 37 (43%) were males and 50 (57%) females, with average (SD) age 61 (11) years (Table 1).
+The study population was composed of 87 participants, contributing to a total of 217 person-years of observation (Table 1).
+Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
 The typical BMI observed was approximately 30 kg/m²
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
 
-The prosthesis failure was detected in 20 (23%) of the participants.
+The prosthesis failure was detected in 20 participants, accounting for approximately one quarter of the study population.
 
 
 |**Characteristic** |**N = 87** |
