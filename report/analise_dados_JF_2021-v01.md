@@ -38,6 +38,8 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 
 # Abbreviations
 
+- SD: standard deviation
+
 # Introduction
 
 ## Objectives
@@ -64,6 +66,8 @@ Packages used for survival analyses were `survival` version 3.2.10 and `survmine
 # Results
 
 ## Study population and follow up
+
+The study population was composed of 87 participants, of which 37 (43%) were males and 50 (57%) females, with average (SD) age 61 (11) years.
 
 
 |**Characteristic** |**N = 87** |
