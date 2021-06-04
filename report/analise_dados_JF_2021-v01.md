@@ -94,7 +94,6 @@ The prosthesis failure was detected in 20 participants, accounting for approxima
 
 Table: **Table 1** Patient characteristics.
 
-## Mortality
 ## Time to prosthesis failure
 
 

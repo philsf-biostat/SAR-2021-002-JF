@@ -96,7 +96,6 @@ desc_tab %>% as_kable()
 
 Table: **Table 1** Patient characteristics.
 
-## Mortality
 ## Time to prosthesis failure
 ```{r}
 # summary(sf.1, times = 1:2)
