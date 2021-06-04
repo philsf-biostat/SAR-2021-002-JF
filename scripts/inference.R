@@ -20,7 +20,8 @@ list_sf <- list(
 )
 
 inf_tab <- tbl_survfit(list_sf, times = 2,
-            label_header = "2-year prosthesis survival"
+                       reverse = TRUE,
+            label_header = "2-year prosthesis failure",
             ) %>% add_p() #%>% as_kable()
 
 inf_tab %>% as_kable()

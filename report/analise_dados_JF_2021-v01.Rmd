@@ -95,7 +95,7 @@ After one year under observation the rate of failure was 12% (4% -- 18%), while 
 inf_tab %>% as_kable()
 ```
 
-Table: **Table 2** Prosthesis survival probabilities after 2-years of follow up.
+Table: **Table 2** Prosthesis failure probabilities after 2-years of follow up.
 p-value: groups compared with the Log-rank test.
 
 # Exceptions and Observations

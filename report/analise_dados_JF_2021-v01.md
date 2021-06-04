@@ -73,20 +73,20 @@ The total failure rate at the end of study follow up was 23% so the median time 
 After one year under observation the rate of failure was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
 
 
-|**Characteristic** |2-year prosthesis survival |**p-value** |
-|:------------------|:--------------------------|:-----------|
-|Overall            |79% (71%, 88%)             |            |
-|Gender             |                           |0.7         |
-|M                  |81% (69%, 95%)             |            |
-|W                  |78% (67%, 90%)             |            |
-|Smoker             |                           |0.4         |
-|No                 |82% (72%, 92%)             |            |
-|Yes                |75% (58%, 97%)             |            |
-|Joint              |                           |0.8         |
-|L                  |79% (68%, 91%)             |            |
-|R                  |80% (69%, 93%)             |            |
+|**Characteristic** |2-year prosthesis failure |**p-value** |
+|:------------------|:-------------------------|:-----------|
+|Overall            |21% (12%, 29%)            |            |
+|Gender             |                          |0.7         |
+|M                  |19% (5.3%, 31%)           |            |
+|W                  |22% (9.6%, 33%)           |            |
+|Smoker             |                          |0.4         |
+|No                 |18% (7.9%, 28%)           |            |
+|Yes                |25% (3.4%, 42%)           |            |
+|Joint              |                          |0.8         |
+|L                  |21% (8.7%, 32%)           |            |
+|R                  |20% (6.6%, 31%)           |            |
 
-Table: **Table 2** Prosthesis survival probabilities after 2-years of follow up.
+Table: **Table 2** Prosthesis failure probabilities after 2-years of follow up.
 p-value: groups compared with the Log-rank test.
 
 # Exceptions and Observations
