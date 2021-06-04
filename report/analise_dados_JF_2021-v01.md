@@ -61,8 +61,8 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 
 ### Statistical packages
 
-This analysis was performed using statistical software `R` version 4.0.5.
-Packages used for survival analyses were `survival` version 3.2.10 and `survminer` version 0.4.9.
+This analysis was performed using statistical software `R` version 4.0.4.
+Packages used for survival analyses were `survival` version 3.2.7 and `survminer` version 0.4.9.
 
 # Results
 
