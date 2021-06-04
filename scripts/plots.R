@@ -4,15 +4,15 @@ library(survminer)
 
 # plots -------------------------------------------------------------------
 
-gg.overall <- ggsurvplot(sf.1, risk.table = TRUE) +
+gg.overall <- ggsurvplot(sf.1, cumevents = TRUE, fun = "cumhaz")+
   # ggtitle("Prosthesis loosening") +
   xlab("Time (years)")
 
-gg.gender <- ggsurvplot(sf.gender, pval = TRUE) +
+gg.gender <- ggsurvplot(sf.gender, fun = "cumhaz", pval = TRUE) +
   xlab("Time (years)")
 
-gg.smoker <- ggsurvplot(sf.smoker, pval = TRUE) +
+gg.smoker <- ggsurvplot(sf.smoker, fun = "cumhaz", pval = TRUE) +
   xlab("Time (years)")
 
-gg.joint <- ggsurvplot(sf.joint, pval = TRUE) +
+gg.joint <- ggsurvplot(sf.joint, fun = "cumhaz", pval = TRUE) +
   xlab("Time (years)")
