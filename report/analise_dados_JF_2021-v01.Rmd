@@ -52,6 +52,7 @@ kable(history)
 # Abbreviations
 
 - BMI: body-mass index
+- CI: 95% confidence interval
 - SD: standard deviation
 
 # Introduction
@@ -99,8 +100,8 @@ Study outcomes were not adjusted for covariates like age, gender or BMI.
 ## Statistical analyses
 
 Patient characteristics were described with frequency and proportion for categorical variables and mean (SD) for numerical variables.
-The main study outcome (time-to-failure) were presented in a Kaplan-Meier plot.
-Time-to-failure were cross-analyzed with all selected categorical variables, including gender, smoking status and joint.
+The main study outcome (time-to-failure) was presented in a Kaplan-Meier plot.
+Time-to-failure was cross-analyzed with all selected categorical variables, including gender, smoking status and joint.
 Uni-variate analyses were performed using the log-rank test.
 All analyses were performed using the significance level of 5%.
 All significance hypothesis tests and confidence intervals computed were two-tailed.
