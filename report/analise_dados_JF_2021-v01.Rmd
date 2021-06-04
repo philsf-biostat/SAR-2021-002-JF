@@ -84,14 +84,15 @@ source("scripts/results.R", encoding = 'UTF-8')
 
 ## Variables
 
-### Primary and secondary outcomes
-
 Upon inspection of the dates of first surgery and dates of loosening for individual patients, it appears the study period is delimited between 2017-05-10 and 2021-02-25, so these were the dates considered as study start and end.
 
+### Primary and secondary outcomes
+
 The event of interest in this analysis is the diagnosis of implant loosening.
-The time until the event of interest were computed between the date of first surgery and date of implant loosening.
+
+The time until the event of interest was computed between the date of first surgery and date of implant loosening.
 Patients that reached study end date without implant failure were censored.
-Considering the study period of approximately 4 years, Time under observation were measured in years.
+Considering the study period of approximately 4 years, time under observation was measured in years.
 
 ### Covariates
 
