@@ -145,5 +145,5 @@ p-value: groups compared with the Log-rank test.
 Due to confidentiality the data-set used in this analysis cannot be shared online in the public version of this report.
 
 ```{r data}
-# pander(dtmin)
+# pander(analytic)
 ```
