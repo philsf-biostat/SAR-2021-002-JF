@@ -150,12 +150,12 @@ There were no significant differences among groups when comparing genders, smoki
 |L                  |21% (8.7%, 32%)           |            |
 |R                  |20% (6.6%, 31%)           |            |
 
-Table: **Table 2** Prosthesis failure probabilities after 2-years of follow up.
+Table: **Table 2** Cumulative hazard of prosthesis loosening after 2-years of follow up.
 p-value: groups compared with the Log-rank test.
 
 ![](../figures/km_overall.png)
 
-**Figure 1** Prosthesis loosening.
+**Figure 1** Cumulative hazard of prosthesis loosening.
 
 # Exceptions and Observations
 

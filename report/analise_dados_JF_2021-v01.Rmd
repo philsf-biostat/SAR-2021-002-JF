@@ -146,12 +146,12 @@ There were no significant differences among groups when comparing genders, smoki
 inf_tab %>% as_kable()
 ```
 
-Table: **Table 2** Prosthesis failure probabilities after 2-years of follow up.
+Table: **Table 2** Cumulative hazard of prosthesis loosening after 2-years of follow up.
 p-value: groups compared with the Log-rank test.
 
 ![](../figures/km_overall.png)
 
-**Figure 1** Prosthesis loosening.
+**Figure 1** Cumulative hazard of prosthesis loosening.
 
 # Exceptions and Observations
 
