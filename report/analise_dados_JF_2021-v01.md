@@ -131,7 +131,7 @@ The prosthesis loosening was detected in 20 participants, accounting for approxi
 
 Table: **Table 1** Patient characteristics.
 
-## Time to prosthesis failure
+## Prosthesis loosening rates
 
 
 

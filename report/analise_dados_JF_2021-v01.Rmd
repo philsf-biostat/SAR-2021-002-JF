@@ -139,7 +139,8 @@ desc_tab %>% as_kable()
 
 Table: **Table 1** Patient characteristics.
 
-## Time to prosthesis failure
+## Prosthesis loosening rates
+
 ```{r}
 # summary(sf.1, times = 3.7)
 # summary(sf.1, times = 1:3)
