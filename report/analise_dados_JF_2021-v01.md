@@ -1,5 +1,5 @@
 ---
-title: "Time until implant failure in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
+title: "Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** dd/mm/aaaa'
 output:
@@ -163,7 +163,7 @@ p-value: groups compared with the Log-rank test.
 
 # References
 
-- **SAP_analise_dados_JF_2021-v01** - Statistical Analysis Plan for Time until implant failure in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals
+- **SAP_analise_dados_JF_2021-v01** - Statistical Analysis Plan for Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals.
 
 # Appendix
 
