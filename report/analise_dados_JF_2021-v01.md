@@ -120,6 +120,10 @@ There were no significant differences among groups when comparing genders, smoki
 Table: **Table 2** Prosthesis failure probabilities after 2-years of follow up.
 p-value: groups compared with the Log-rank test.
 
+![](../figures/km_overall.png)
+
+**Figure 1** Prosthesis loosening.
+
 # Exceptions and Observations
 
 # Conclusions
@@ -129,6 +133,17 @@ p-value: groups compared with the Log-rank test.
 # Appendix
 
 ## Exploratory data analysis
+
+![](../figures/km_gender.png)
+
+**Figure 2** Prostheses loosening by gender.
+
+![](../figures/km_smoker.png)
+
+**Figure 3** Prosthesis loosening by smoking status.
+
+![](../figures/km_joint.png)
+**Figure 4** Prosthesis loosening by joint operated.
 
 ## Analytical data-set
 
