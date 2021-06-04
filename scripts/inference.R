@@ -21,7 +21,7 @@ list_sf <- list(
 
 inf_tab <- tbl_survfit(list_sf, times = 2,
                        reverse = TRUE,
-            label_header = "2-year prosthesis failure",
+            label_header = "2-year prosthesis loosening",
             ) %>% add_p() #%>% as_kable()
 
 inf_tab %>% as_kable()
