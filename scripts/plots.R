@@ -16,5 +16,3 @@ gg.smoker <- ggsurvplot(sf.smoker, pval = TRUE) +
 
 gg.joint <- ggsurvplot(sf.joint, pval = TRUE) +
   xlab("Time (years)")
-
-
