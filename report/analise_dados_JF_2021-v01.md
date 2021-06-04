@@ -44,9 +44,9 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 
 # Introduction
 
-## Objectives
+## Objective
 
-Evaluate the time-to-failure in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
+Perform a time-to-failure analysis in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
 
 ## Data reception and cleaning
 
@@ -69,14 +69,16 @@ The data were be pre-processed, rearranged and cleaned as follows:
 
 ## Variables
 
-### Primary and secondary outcomes
-
 Upon inspection of the dates of first surgery and dates of loosening for individual patients, it appears the study period is delimited between 2017-05-10 and 2021-02-25, so these were the dates considered as study start and end.
 
+### Primary and secondary outcomes
+
 The event of interest in this analysis is the diagnosis of implant loosening.
-The time until the event of interest were computed between the date of first surgery and date of implant loosening.
+The primary outcome was defined as the cumulative hazard of implant lossening, and computed with the Kaplan-Meier estimator.
+
+The time until the event of interest was computed between the date of first surgery and date of implant loosening.
 Patients that reached study end date without implant failure were censored.
-Considering the study period of approximately 4 years, Time under observation were measured in years.
+Considering the study period of approximately 4 years, time under observation was measured in years.
 
 ### Covariates
 
