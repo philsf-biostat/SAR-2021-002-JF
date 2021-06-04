@@ -61,7 +61,7 @@ The data were be pre-processed, rearranged and cleaned as follows:
   - Joint: L/R
 - All dates were standardized and invalid values removed
   - All invalid values like "xxxxxxxxxx",  "xxxxxxxxxxxxxxx", etc were removed before data processing;
-- Age were computed as whole years between birth and first surgery, with calendar accuracy;
+- Age was computed as whole years between birth and first surgery, with calendar accuracy;
 
 # Methods
 
