@@ -107,8 +107,10 @@ Gender split was similar with 37 (43%) males and 50 (57%) females, with average 
 The average (SD) BMI observed was approximately 30 (4) kg/m².
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
 
-Overall, the study population contributed to a total of 217 person-years of time under observation, ranging from ranged from 7 weeks to almost 3 years.
-The prosthesis failure was detected in 20 participants, accounting for approximately one quarter of the study population.
+
+
+Overall, the study population contributed to a total of 150 person-years of time under observation, ranging from 7 weeks to 3.8 years.
+The prosthesis loosening was detected in 20 participants, accounting for approximately one quarter of the study population.
 
 
 |**Characteristic** |**N = 87** |
