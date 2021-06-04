@@ -46,7 +46,7 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 
 ## Objective
 
-Perform a time-to-failure analysis to estimate implant loosening in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
+Perform a time-to-failure analysis to estimate implant loosening rates in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
 
 ## Data reception and cleaning
 
