@@ -89,7 +89,7 @@ Upon inspection of the dates of first surgery and dates of loosening for individ
 ### Primary and secondary outcomes
 
 The event of interest in this analysis is the diagnosis of implant loosening.
-The primary outcome was defined as the cumulative hazard of implant lossening, and computed with the Kaplan-Meier estimator.
+The primary outcome was defined as the cumulative hazard of implant loosening, and computed with the Kaplan-Meier estimator.
 
 The time until the event of interest was computed between the date of first surgery and date of implant loosening.
 Patients that reached study end date without implant failure were censored.
@@ -102,8 +102,8 @@ Study outcomes were not adjusted for covariates like age, gender or BMI.
 ## Statistical analyses
 
 Patient characteristics were described with frequency and proportion for categorical variables and mean (SD) for numerical variables.
-The main study outcome (time-to-failure) was presented in a Kaplan-Meier plot.
-Time-to-failure was cross-analyzed with all selected categorical variables, including gender, smoking status and joint.
+The main study outcome (time-to-failure) was presented in a Kaplan-Meier plot as well as the estimated failure rates and their corresponding CIs.
+The failure rate was cross-analyzed with all available categorical variables, including gender, smoking status and joint.
 Uni-variate analyses were performed using the log-rank test.
 All analyses were performed using the significance level of 5%.
 All significance hypothesis tests and confidence intervals computed were two-tailed.
@@ -146,12 +146,12 @@ There were no significant differences among groups when comparing genders, smoki
 inf_tab %>% as_kable()
 ```
 
-Table: **Table 2** Prosthesis failure probabilities after 2-years of follow up.
+Table: **Table 2** Cumulative hazard of prosthesis loosening after 2-years of follow up.
 p-value: groups compared with the Log-rank test.
 
 ![](../figures/km_overall.png)
 
-**Figure 1** Prosthesis loosening.
+**Figure 1** Cumulative hazard of prosthesis loosening.
 
 # Exceptions and Observations
 
