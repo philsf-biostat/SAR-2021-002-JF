@@ -59,7 +59,7 @@ kable(history)
 
 ## Objective
 
-Perform a time-to-failure analysis in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
+Perform a time-to-failure analysis to estimate implant loosening in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
 
 ## Data reception and cleaning
 
