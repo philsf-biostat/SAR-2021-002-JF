@@ -1,5 +1,5 @@
 ---
-title: "Statistical Analysis Plan for Time until implant failure in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
+title: "Statistical Analysis Plan for Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: '**Date: ** 2021-05-16'
 output:
@@ -47,7 +47,7 @@ subtitle: 'SAP: SAP_analise_dados_JF_2021-v01'
 
 ## Objectives
 
-Evaluate the time-to-failure in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
+Perform a time-to-failure analysis to estimate implant loosening rates in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
 
 ## Hypotheses
 
@@ -163,7 +163,7 @@ N/A.
 
 ### Statistical packages
 
-This analysis will be performed using statistical software `R` version 4.0.5.
+This analysis will be performed using statistical software `R` version 4.0.4.
 
 # Exceptions and Observations
 
