@@ -142,20 +142,20 @@ After one year under observation the rate of failure (CI) was 12% (4% -- 18%), w
 There were no significant differences among groups when comparing genders, smoking status or the knee side operated on (Table 2).
 
 
-|**Characteristic** |2-year prosthesis loosening |**p-value** |
+|**Characteristic** |3-year prosthesis loosening |**p-value** |
 |:------------------|:---------------------------|:-----------|
-|Overall            |21% (12%, 29%)              |            |
-|Gender             |                            |0.7         |
-|M                  |19% (5.3%, 31%)             |            |
-|W                  |22% (9.6%, 33%)             |            |
-|Smoker             |                            |0.4         |
-|No                 |18% (7.9%, 28%)             |            |
-|Yes                |25% (3.4%, 42%)             |            |
-|Joint              |                            |0.8         |
-|L                  |21% (8.7%, 32%)             |            |
-|R                  |20% (6.6%, 31%)             |            |
+|Overall            |33% (15%, 47%)              |            |
+|Gender             |                            |>0.9        |
+|M                  |36% (3.3%, 58%)             |            |
+|W                  |33% (8.7%, 50%)             |            |
+|Smoker             |                            |0.3         |
+|No                 |25% (10%, 37%)              |            |
+|Yes                |63% (0%, 91%)               |            |
+|Joint              |                            |>0.9        |
+|L                  |28% (10%, 43%)              |            |
+|R                  |39% (0.9%, 62%)             |            |
 
-Table: **Table 2** Cumulative hazard of prosthesis loosening after 2-years of follow up.
+Table: **Table 2** Cumulative hazard of prosthesis loosening after 3 years of follow up.
 p-value: groups compared with the Log-rank test.
 
 ![](../figures/km_overall.png)
