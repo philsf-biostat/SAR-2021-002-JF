@@ -80,6 +80,7 @@ Packages used for survival analyses were `survival` version `r packageVersion("s
 
 ## Study population and follow up
 
+## Mortality
 ## Time to prosthesis failure
 ```{r}
 # summary(sf.1, times = 1:2)
