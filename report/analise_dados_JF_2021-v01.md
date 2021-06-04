@@ -134,11 +134,10 @@ Table: **Table 1** Patient characteristics.
 ## Time to prosthesis failure
 
 
-Times to prosthesis failure ranged from 7 weeks to almost 3 years.
-This range coincides with the overall times under observation meaning the first and last events or censoring in the data were both actual implant loosening events.
-All patients censored are accumulated at the final months of the study period (marked as + in Figure 1).
 
-The total failure rate at the end of study follow up was 23% so the median time of failure could not be estimated.
+Times to prosthesis failure ranged from 7 weeks to 2.9 years (Figure 1).
+
+The total failure rate at the end of follow up was 23% so the median time of failure could not be estimated.
 After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
 There were no significant differences among groups when comparing genders, smoking status or the knee side operated on (Table 2).
 
