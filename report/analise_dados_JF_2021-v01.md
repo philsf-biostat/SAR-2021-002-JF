@@ -102,11 +102,12 @@ Packages used for survival analyses were `survival` version 3.2.7 and `survminer
 
 ## Study population and follow up
 
-The study population was composed of 87 participants, contributing to a total of 217 person-years of observation (Table 1).
+The study population was composed of 87 participants (Table 1).
 Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
 The average (SD) BMI observed was approximately 30 (4) kg/m².
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
 
+Overall, the study population contributed to a total of 217 person-years of time under observation, ranging from ranged from 7 weeks to almost 3 years.
 The prosthesis failure was detected in 20 participants, accounting for approximately one quarter of the study population.
 
 
@@ -131,7 +132,10 @@ Table: **Table 1** Patient characteristics.
 ## Time to prosthesis failure
 
 
-Times to prosthesis failure ranged from 7 weeks to almost 3 years (Figure 1).
+Times to prosthesis failure ranged from 7 weeks to almost 3 years.
+This range coincides with the overall times under observation meaning the first and last events or censoring in the data were both actual implant loosening events.
+All patients censored are accumulated at the final months of the study period (marked as + in Figure 1).
+
 The total failure rate at the end of study follow up was 23% so the median time of failure could not be estimated.
 After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
 There were no significant differences among groups when comparing genders, smoking status or the knee side operated on (Table 2).
