@@ -39,13 +39,29 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 # Abbreviations
 
 - BMI: body-mass index
+- CI: 95% confidence interval
 - SD: standard deviation
 
 # Introduction
 
 ## Objectives
 
+Evaluate the time-to-failure in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
+
 ## Data reception and cleaning
+
+The data were be pre-processed, rearranged and cleaned as follows:
+
+- All variables were standardized
+  - variable names were standardized for processing purposes, labels were attributed for reporting purposes;
+  - observations were standardized according to variable type (numeric, dates, categorical, etc)
+- All categorical variables were standardized according to their categories pre-defined in the dictionary provided
+  - Gender: M/W
+  - Smoking status: No/Yes
+  - Joint: L/R
+- All dates were standardized and invalid values removed
+  - All invalid values like "xxxxxxxxxx",  "xxxxxxxxxxxxxxx", etc were removed before data processing;
+- Age were computed as whole years between birth and first surgery, with calendar accuracy;
 
 # Methods
 
@@ -55,14 +71,30 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 
 ### Primary and secondary outcomes
 
+Upon inspection of the dates of first surgery and dates of loosening for individual patients, it appears the study period is delimited between 2017-05-10 and 2021-02-25, so these were the dates considered as study start and end.
+
+The event of interest in this analysis is the diagnosis of implant loosening.
+The time until the event of interest were computed between the date of first surgery and date of implant loosening.
+Patients that reached study end date without implant failure were censored.
+Considering the study period of approximately 4 years, Time under observation were measured in years.
+
 ### Covariates
+
+Study outcomes were not adjusted for covariates like age, gender or BMI.
 
 ## Statistical analyses
 
+Patient characteristics were described with frequency and proportion for categorical variables and mean (SD) for numerical variables.
+The main study outcome (time-to-failure) was presented in a Kaplan-Meier plot.
+Time-to-failure was cross-analyzed with all selected categorical variables, including gender, smoking status and joint.
+Uni-variate analyses were performed using the log-rank test.
+All analyses were performed using the significance level of 5%.
+All significance hypothesis tests and confidence intervals computed were two-tailed.
+
 ### Statistical packages
 
-This analysis was performed using statistical software `R` version 4.0.5.
-Packages used for survival analyses were `survival` version 3.2.10 and `survminer` version 0.4.9.
+This analysis was performed using statistical software `R` version 4.0.4.
+Packages used for survival analyses were `survival` version 3.2.7 and `survminer` version 0.4.9.
 
 # Results
 
@@ -94,11 +126,10 @@ The prosthesis failure was detected in 20 participants, accounting for approxima
 
 Table: **Table 1** Patient characteristics.
 
-## Mortality
 ## Time to prosthesis failure
 
 
-Times to prosthesis failure ranged from 7 weeks to almost 3 years.
+Times to prosthesis failure ranged from 7 weeks to almost 3 years (Figure 1).
 The total failure rate at the end of study follow up was 23% so the median time of failure could not be estimated.
 After one year under observation the rate of failure was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
 There were no significant differences among groups when comparing genders, smoking status or the knee side operated on (Table 2).
@@ -129,6 +160,8 @@ p-value: groups compared with the Log-rank test.
 # Conclusions
 
 # References
+
+- **SAP_analise_dados_JF_2021-v01** - Statistical Analysis Plan for Time until implant failure in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals
 
 # Appendix
 
