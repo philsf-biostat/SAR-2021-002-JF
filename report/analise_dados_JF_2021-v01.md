@@ -86,7 +86,7 @@ Study outcomes were not adjusted for covariates like age, gender or BMI.
 
 ## Statistical analyses
 
-Patient characteristics were described with frequency and proportion for categorical variables and mean (SD) for numerical variables.
+Patient characteristics were described with frequency and proportion (%) for categorical variables and mean (SD) for numerical variables.
 The main study outcome (time-to-failure) was presented in a Kaplan-Meier plot as well as the estimated failure rates and their corresponding CIs.
 The failure rate was cross-analyzed with all available categorical variables, including gender, smoking status and joint.
 Uni-variate analyses were performed using the log-rank test.
@@ -104,7 +104,7 @@ Packages used for survival analyses were `survival` version 3.2.7 and `survminer
 
 The study population was composed of 87 participants, contributing to a total of 217 person-years of observation (Table 1).
 Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
-The typical BMI observed was approximately 30 kg/m²
+The average (SD) BMI observed was approximately 30 (4) kg/m².
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
 
 The prosthesis failure was detected in 20 participants, accounting for approximately one quarter of the study population.
@@ -133,7 +133,7 @@ Table: **Table 1** Patient characteristics.
 
 Times to prosthesis failure ranged from 7 weeks to almost 3 years (Figure 1).
 The total failure rate at the end of study follow up was 23% so the median time of failure could not be estimated.
-After one year under observation the rate of failure was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
+After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
 There were no significant differences among groups when comparing genders, smoking status or the knee side operated on (Table 2).
 
 
