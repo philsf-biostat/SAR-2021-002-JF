@@ -150,8 +150,9 @@ Table: **Table 1** Patient characteristics.
 
 Times to prosthesis failure ranged from 7 weeks to 2.9 years (Figure 1).
 
-The total failure rate at the end of follow up was 23% so the median time of failure could not be estimated.
-After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
+The total failure rate (CI) at the end of follow up was 33% (15% -- 46%) so the median time of failure could not be estimated.
+After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the estimated failure rate is 23% (13% -- 32%).
+Table 2 summarizes the estimates for 3 years of follow up times.
 There were no significant differences among groups when comparing genders, smoking status or the knee side operated on (Table 2).
 
 ```{r survival table, warning=FALSE}
