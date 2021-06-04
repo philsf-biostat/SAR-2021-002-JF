@@ -81,6 +81,15 @@ Packages used for survival analyses were `survival` version `r packageVersion("s
 ## Study population and follow up
 
 ## Time to prosthesis failure
+```{r}
+# summary(sf.1, times = 1:2)
+# philsfmisc::format.pct(1-c(0.885,0.821,0.955), 0)
+# philsfmisc::format.pct(1-c(0.793,0.712,0.883), 0)
+```
+
+Times to prosthesis failure ranged from 7 weeks to almost 3 years.
+The total failure rate at the end of study follow up was 23% so the median time of failure could not be estimated.
+After one year under observation the rate of failure was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
 
 ```{r survival table, warning=FALSE}
 inf_tab %>% as_kable()

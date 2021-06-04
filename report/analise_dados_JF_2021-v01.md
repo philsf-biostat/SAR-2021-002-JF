@@ -68,6 +68,11 @@ Packages used for survival analyses were `survival` version 3.2.10 and `survmine
 ## Time to prosthesis failure
 
 
+Times to prosthesis failure ranged from 7 weeks to almost 3 years.
+The total failure rate at the end of study follow up was 23% so the median time of failure could not be estimated.
+After one year under observation the rate of failure was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
+
+
 |**Characteristic** |2-year prosthesis survival |**p-value** |
 |:------------------|:--------------------------|:-----------|
 |Overall            |79% (71%, 88%)             |            |
