@@ -17,7 +17,7 @@ output:
     fig_caption: yes
     fig_height: 6
     fig_width: 6
-    reference_docx: misc/style.docx
+    reference_docx: misc/style_SAR_en.docx
     toc: yes
 subtitle: 'REPORT: analise_dados_JF_2021-v01'
 # toc-title: "Sumário"
