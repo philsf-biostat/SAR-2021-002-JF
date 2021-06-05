@@ -93,7 +93,7 @@ The primary outcome was defined as the cumulative hazard of implant loosening, a
 
 The time until the event of interest was computed between the date of first surgery and date of implant loosening.
 Patients that reached study end date without implant failure were censored.
-Considering the study period of approximately 3 years, time under observation was measured in years.
+Considering the study period of approximately 4 years, time under observation was measured in years.
 
 ### Covariates
 
