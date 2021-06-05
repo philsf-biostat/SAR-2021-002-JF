@@ -138,7 +138,7 @@ Loosening events were observed in 20 (23%) of the included participants, account
 The cumulative failure rate (CI) at the end of follow up was 33% (15% -- 46%).
 Since the number of events was small, relative to the sample size, the median time of failure could not be estimated.
 
-After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the rate is 23% (13% -- 32%).
+After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the rate accumulated to 23% (13% -- 32%).
 Table 2 summarizes the estimates for 3 years of follow up.
 There were no significant differences among groups when comparing genders, smoking status or the knee side operated on.
 
