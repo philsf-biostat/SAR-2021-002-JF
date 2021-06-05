@@ -55,15 +55,23 @@ analytic <- df.raw %>%
 
 # data wrangling ----------------------------------------------------------
 
+study_period <- analytic %>%
+  summarise(
+    start = min(c(uka_date, loosening_date), na.rm = TRUE),
+    end = max(c(uka_date, loosening_date), na.rm = TRUE)
+    )
+
 analytic <- analytic %>%
   mutate(
-    td = as.duration( interval(uka_date, loosening_date) ),
-    time = case_when(
-      is.na(td) ~ as.duration(max(td, na.rm = TRUE))/dyears(1),
-      TRUE ~ td/dyears(1)
-    ),
+    td = as.duration( interval(
+      uka_date,
+      # if no loosening date, censor at study end
+      if_else(is.na(loosening_date), study_period$end, loosening_date)
+      ) ),
+    time = td/dyears(1),
     event = case_when(
-      is.na(td) ~ 0,
+      # if no loosening date, censor at td
+      is.na(loosening_date) ~ 0,
       TRUE ~ 1
     ),
     status = factor(event, labels = c("Success", "Failure"))

@@ -78,7 +78,7 @@ The primary outcome was defined as the cumulative hazard of implant loosening, a
 
 The time until the event of interest was computed between the date of first surgery and date of implant loosening.
 Patients that reached study end date without implant failure were censored.
-Considering the study period of approximately 4 years, time under observation was measured in years.
+Considering the study period of approximately 3 years, time under observation was measured in years.
 
 ### Covariates
 
@@ -86,7 +86,7 @@ Study outcomes were not adjusted for covariates like age, gender or BMI.
 
 ## Statistical analyses
 
-Patient characteristics were described with frequency and proportion for categorical variables and mean (SD) for numerical variables.
+Patient characteristics were described with frequency and proportion (%) for categorical variables and mean (SD) for numerical variables.
 The main study outcome (time-to-failure) was presented in a Kaplan-Meier plot as well as the estimated failure rates and their corresponding CIs.
 The failure rate was cross-analyzed with all available categorical variables, including gender, smoking status and joint.
 Uni-variate analyses were performed using the log-rank test.
@@ -102,12 +102,13 @@ Packages used for survival analyses were `survival` version 3.2.7 and `survminer
 
 ## Study population and follow up
 
-The study population was composed of 87 participants, contributing to a total of 217 person-years of observation (Table 1).
-Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
-The typical BMI observed was approximately 30 kg/m²
-Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
 
-The prosthesis failure was detected in 20 participants, accounting for approximately one quarter of the study population.
+
+The study population was composed of 87 participants (Table 1).
+Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
+The average (SD) BMI observed was approximately 30 (4) kg/m².
+Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
+Overall, the study population contributed to a total of 150 person-years of time under observation, ranging from 7 weeks to 3.8 years.
 
 
 |**Characteristic** |**N = 87** |
@@ -128,29 +129,33 @@ The prosthesis failure was detected in 20 participants, accounting for approxima
 
 Table: **Table 1** Patient characteristics.
 
-## Time to prosthesis failure
+## Prosthesis loosening rates
 
 
-Times to prosthesis failure ranged from 7 weeks to almost 3 years (Figure 1).
-The total failure rate at the end of study follow up was 23% so the median time of failure could not be estimated.
-After one year under observation the rate of failure was 12% (4% -- 18%), while after two years the estimated failure rate is 21% (12% -- 29%).
-There were no significant differences among groups when comparing genders, smoking status or the knee side operated on (Table 2).
+
+Times to prosthesis loosening ranged from 7 weeks to 2.9 years (Figure 1).
+Loosening events were observed in 20 (23%) of the included participants, accounting for approximately one quarter of the study population (Table 1).
+The cumulative failure rate (CI) at the end of follow up was 33% (15% -- 46%) so the median time of failure could not be estimated.
+
+After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the rate is 23% (13% -- 32%).
+Table 2 summarizes the estimates for 3 years of follow up.
+There were no significant differences among groups when comparing genders, smoking status or the knee side operated on.
 
 
-|**Characteristic** |2-year prosthesis loosening |**p-value** |
+|**Characteristic** |3-year prosthesis loosening |**p-value** |
 |:------------------|:---------------------------|:-----------|
-|Overall            |21% (12%, 29%)              |            |
-|Gender             |                            |0.7         |
-|M                  |19% (5.3%, 31%)             |            |
-|W                  |22% (9.6%, 33%)             |            |
-|Smoker             |                            |0.4         |
-|No                 |18% (7.9%, 28%)             |            |
-|Yes                |25% (3.4%, 42%)             |            |
-|Joint              |                            |0.8         |
-|L                  |21% (8.7%, 32%)             |            |
-|R                  |20% (6.6%, 31%)             |            |
+|Overall            |33% (15%, 47%)              |            |
+|Gender             |                            |>0.9        |
+|M                  |36% (3.3%, 58%)             |            |
+|W                  |33% (8.7%, 50%)             |            |
+|Smoker             |                            |0.3         |
+|No                 |25% (10%, 37%)              |            |
+|Yes                |63% (0%, 91%)               |            |
+|Joint              |                            |>0.9        |
+|L                  |28% (10%, 43%)              |            |
+|R                  |39% (0.9%, 62%)             |            |
 
-Table: **Table 2** Cumulative hazard of prosthesis loosening after 2-years of follow up.
+Table: **Table 2** Cumulative hazard of prosthesis loosening after 3 years of follow up.
 p-value: groups compared with the Log-rank test.
 
 ![](../figures/km_overall.png)
