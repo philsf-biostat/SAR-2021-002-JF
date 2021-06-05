@@ -1,6 +1,6 @@
 # Statistical Analysis for Jens Freitag (Helios Klinikum Berlin-Buch, 2021)
 
-Time until implant failure in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals.
+Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals.
 
 ## Analyses performed
 
@@ -28,12 +28,12 @@ Time until implant failure in a knee prosthesis sub-population of the Helios Kli
 <!-- - Download -->
 <!-- <\!-- - [Download][pdf-v02] -\-> -->
 
-**Version 01** - [Ongoing][milestone-v01].
+**Version 01** - [Done][milestone-v01].
 <!-- **Version 01** - [Concluded][milestone-v01]. -->
 
 - [Online visualization][reportviz-v01]
-- Download
-<!-- - [Download][pdf-v01] -->
+- [Download][pdf-v01]
+<!-- - Download -->
 
 [Activities planned for report version 01][v01-project].
 
