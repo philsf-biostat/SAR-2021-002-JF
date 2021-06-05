@@ -165,6 +165,11 @@ p-value: groups compared with the Log-rank test.
 
 # Exceptions and Observations
 
+This analysis has the following limitations.
+The time periods of the study were imputed by the statistician, based on inspection of the raw data.
+This includes the putative censoring of cases not identified as having implant failures.
+Since the Kaplan-Meier estimates rely heavily on the time to events, different definitions of study period could result in slightly different hazard estimates.
+
 # Conclusions
 
 # References
