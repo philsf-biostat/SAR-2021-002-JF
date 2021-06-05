@@ -149,7 +149,8 @@ Table: **Table 1** Patient characteristics.
 
 Times to prosthesis loosening ranged from 7 weeks to 2.9 years (Figure 1).
 Loosening events were observed in `r person_years$event` (23%) of the included participants, accounting for approximately one quarter of the study population (Table 1).
-The cumulative failure rate (CI) at the end of follow up was 33% (15% -- 46%) so the median time of failure could not be estimated.
+The cumulative failure rate (CI) at the end of follow up was 33% (15% -- 46%).
+Since the number of events was small, relative to the sample size, the median time of failure could not be estimated.
 
 After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the rate is 23% (13% -- 32%).
 Table 2 summarizes the estimates for 3 years of follow up.
