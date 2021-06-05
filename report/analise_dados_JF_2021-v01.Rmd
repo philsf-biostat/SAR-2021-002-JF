@@ -93,7 +93,7 @@ The primary outcome was defined as the cumulative hazard of implant loosening, a
 
 The time until the event of interest was computed between the date of first surgery and date of implant loosening.
 Patients that reached study end date without implant failure were censored.
-Considering the study period of approximately 3 years, time under observation was measured in years.
+Considering the study period of approximately 4 years, time under observation was measured in years.
 
 ### Covariates
 
@@ -149,9 +149,10 @@ Table: **Table 1** Patient characteristics.
 
 Times to prosthesis loosening ranged from 7 weeks to 2.9 years (Figure 1).
 Loosening events were observed in `r person_years$event` (23%) of the included participants, accounting for approximately one quarter of the study population (Table 1).
-The cumulative failure rate (CI) at the end of follow up was 33% (15% -- 46%) so the median time of failure could not be estimated.
+The cumulative failure rate (CI) at the end of follow up was 33% (15% -- 46%).
+Since the number of events was small, relative to the sample size, the median time of failure could not be estimated.
 
-After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the rate is 23% (13% -- 32%).
+After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the rate accumulated to 23% (13% -- 32%).
 Table 2 summarizes the estimates for 3 years of follow up.
 There were no significant differences among groups when comparing genders, smoking status or the knee side operated on.
 
