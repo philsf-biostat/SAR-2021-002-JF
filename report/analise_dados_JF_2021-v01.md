@@ -110,7 +110,7 @@ Twenty participants were smokers and the side of operation was approximately equ
 
 
 Overall, the study population contributed to a total of 150 person-years of time under observation, ranging from 7 weeks to 3.8 years.
-The prosthesis loosening was detected in 20 participants, accounting for approximately one quarter of the study population.
+
 
 
 |**Characteristic** |**N = 87** |
@@ -135,12 +135,13 @@ Table: **Table 1** Patient characteristics.
 
 
 
-Times to prosthesis failure ranged from 7 weeks to 2.9 years (Figure 1).
+Times to prosthesis loosening ranged from 7 weeks to 2.9 years (Figure 1).
+Loosening events were observed in 20 (23%) of the included participants, accounting for approximately one quarter of the study population (Table 1).
+The cumulative failure rate (CI) at the end of follow up was 33% (15% -- 46%) so the median time of failure could not be estimated.
 
-The total failure rate (CI) at the end of follow up was 33% (15% -- 46%) so the median time of failure could not be estimated.
-After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the estimated failure rate is 23% (13% -- 32%).
-Table 2 summarizes the estimates for 3 years of follow up times.
-There were no significant differences among groups when comparing genders, smoking status or the knee side operated on (Table 2).
+After one year under observation the rate of failure (CI) was 12% (4% -- 18%), while after two years the rate is 23% (13% -- 32%).
+Table 2 summarizes the estimates for 3 years of follow up.
+There were no significant differences among groups when comparing genders, smoking status or the knee side operated on.
 
 
 |**Characteristic** |3-year prosthesis loosening |**p-value** |
