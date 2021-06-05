@@ -177,6 +177,10 @@ It is recommended that the results presented in this report be interpreted with 
 
 # Conclusions
 
+The study cohort included 87 participants that were observed for a total period of 4 years.
+After the first knee surgery 20 (23%) participants experienced implant failure, with times to failure ranging from 7 weeks to 3 years.
+These events represent a raw estimate of cumulative hazard of implant loosening of 33% (15% -- 46%) in the study period.
+
 # References
 
 - **SAP_analise_dados_JF_2021-v01** - Statistical Analysis Plan for Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals.
