@@ -1,7 +1,7 @@
 ---
 title: "Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
-date: '**Date: ** dd/mm/aaaa'
+date: '**Date: ** 2021-06-04'
 output:
   html_document:
     fig_caption: yes
