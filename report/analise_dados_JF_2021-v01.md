@@ -102,15 +102,13 @@ Packages used for survival analyses were `survival` version 3.2.7 and `survminer
 
 ## Study population and follow up
 
+
+
 The study population was composed of 87 participants (Table 1).
 Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
 The average (SD) BMI observed was approximately 30 (4) kg/m².
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
-
-
-
 Overall, the study population contributed to a total of 150 person-years of time under observation, ranging from 7 weeks to 3.8 years.
-
 
 
 |**Characteristic** |**N = 87** |
