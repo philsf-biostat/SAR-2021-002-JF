@@ -30,10 +30,10 @@ subtitle: 'REPORT: analise_dados_JF_2021-v02'
 **Document version**
 
 
-|Version |Alterations                                                                                                                    |
-|:-------|:------------------------------------------------------------------------------------------------------------------------------|
-|01      |Initial version                                                                                                                |
-|02      |Operation time included in the analysis; minimum and maximum observations of numerical variables explicitly noted in the text; |
+|Version |Alterations                                                                                                                                                                                             |
+|:-------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|01      |Initial version                                                                                                                                                                                         |
+|02      |Operation time included in the analysis; minimum and maximum observations of numerical variables explicitly noted in the text; duplicate patients observed, and risk of bias noted in the Observations. |
 
 ---
 
@@ -112,6 +112,7 @@ The average (SD) BMI observed was approximately 30 (4) kg/m² with a minimum of 
 Average (SD) operation time was 68 (11) minutes with the shortest surgery lasting for 43 and the longest for 102 minutes.
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
 Overall, the study population contributed to a total of 150 person-years of time under observation, ranging from 7 weeks to 3.8 years.
+There were 5 bilateral cases, where patients had surgery on both knees.
 
 
 |**Characteristic** |**N = 87** |
@@ -174,6 +175,11 @@ The time periods of the study were imputed by the statistician, based on inspect
 This includes the putative censoring of cases not identified as having implant failures.
 Since the Kaplan-Meier estimates rely heavily on the time to events, different definitions of study period could result in slightly different hazard estimates.
 It is recommended that the results presented in this report be interpreted with caution, taking into account the details of the study design.
+
+The results in this report should be interpreted with care.
+The methods used considered that all observations were different participants but there were 5 bilateral cases, where a patient had surgery on both knees.
+All results shown here are valid under the assumption of independence of observations, while multiple observations of a single patient could introduce bias in the estimates.
+To account for these biases a multivariate analysis would be required to estimate the effect size of covariates in the risk of implant failure.
 
 # Conclusions
 
