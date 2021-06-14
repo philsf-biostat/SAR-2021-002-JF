@@ -41,7 +41,7 @@ panderOptions('table.split.table', Inf)
 ```{r, echo = FALSE}
 Version <- c("01", "02")
 Changes <- c("Initial version",
-             "Operation time included in the analysis;"
+             "Operation time included in the analysis; minimum and maximum observations of numerical variables explicitly noted in the text; "
              )
 history <- cbind(Version, Changes)
 colnames(history) <- c("Version", "Alterations")
@@ -128,9 +128,10 @@ Packages used for survival analyses were `survival` version `r packageVersion("s
 ```
 
 The study population was composed of `r person_years$observations` participants (Table 1).
-Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
-The average (SD) BMI observed was approximately 30 (4) kg/m².
-Average (SD) operation time was 68 (11) minutes.
+Gender split was similar with 37 (43%) males and 50 (57%) females.
+Participant ages ranged from `r age.min` to `r age.max` years with average (SD) age of 61 (11) years.
+The average (SD) BMI observed was approximately 30 (4) kg/m² with a minimum of `r bmi.min` and a maximum of `r bmi.max` kg/m².
+Average (SD) operation time was 68 (11) minutes with the shortest surgery lasting for `r opt.min` and the longest for `r opt.max` minutes.
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
 Overall, the study population contributed to a total of `r round(person_years$pyears)` person-years of time under observation, ranging from 7 weeks to 3.8 years.
 

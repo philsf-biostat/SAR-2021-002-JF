@@ -11,6 +11,13 @@ library(gtsummary)
 
 person_years <- pyears(Surv(time, event) ~ 1, analytic, scale = 1)
 
+age.min <- min(analytic$age)
+age.max <- max(analytic$age)
+bmi.min <- min(analytic$bmi)
+bmi.max <- max(analytic$bmi)
+opt.min <- min(analytic$op_time)
+opt.max <- max(analytic$op_time)
+
 # tables ------------------------------------------------------------------
 
 desc_tab <- analytic %>%
