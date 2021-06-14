@@ -179,6 +179,7 @@ It is recommended that the results presented in this report be interpreted with 
 The results in this report should be interpreted with care.
 The methods used considered that all observations were different participants but there were 5 bilateral cases, where a patient had surgery on both knees.
 All results shown here are valid under the assumption of independence of observations, while multiple observations of a single patient could introduce bias in the estimates.
+To account for these biases a more sophisticated methodology would be required to estimate the effect size of covariates in the risk of implant failure.
 
 # Conclusions
 
