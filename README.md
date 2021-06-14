@@ -21,12 +21,12 @@ Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum
 
 ## Analysis report
 
-**Version 02** - [Ongoing][milestone-v02].
-<!-- **Version 02** - [Concluded][milestone-v02]. -->
+<!-- **Version 02** - [Ongoing][milestone-v02]. -->
+**Version 02** - [Concluded][milestone-v02].
 
 - [Online visualization][reportviz-v02]
-- Download
-<!-- - [Download][pdf-v02] -->
+- [Download][pdf-v02]
+<!-- - Download -->
 
 [Activities planned for report version 02][v02-project].
 
@@ -51,7 +51,7 @@ Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum
 [reportviz-v02]: report/analise_dados_JF_2021-v02.md
 [docx-v02]: report/analise_dados_JF_2021-v02.docx?raw=true
 [pdf-v02]: report/analise_dados_JF_2021-v02.pdf?raw=true
-[v02-project]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/3
+[v02-project]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/4
 
 <!-- ## Releases -->
 
