@@ -176,6 +176,10 @@ This includes the putative censoring of cases not identified as having implant f
 Since the Kaplan-Meier estimates rely heavily on the time to events, different definitions of study period could result in slightly different hazard estimates.
 It is recommended that the results presented in this report be interpreted with caution, taking into account the details of the study design.
 
+The results in this report should be interpreted with care.
+The methods used considered that all observations were different participants but there were 5 bilateral cases, where a patient had surgery on both knees.
+All results shown here are valid under the assumption of independence of observations, while multiple observations of a single patient could introduce bias in the estimates.
+
 # Conclusions
 
 The study cohort included 87 participants that were observed for a total period of 4 years.
