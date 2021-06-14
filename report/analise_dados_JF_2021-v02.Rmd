@@ -41,7 +41,7 @@ panderOptions('table.split.table', Inf)
 ```{r, echo = FALSE}
 Version <- c("01", "02")
 Changes <- c("Initial version",
-             ""
+             "Operation time included in the analysis;"
              )
 history <- cbind(Version, Changes)
 colnames(history) <- c("Version", "Alterations")

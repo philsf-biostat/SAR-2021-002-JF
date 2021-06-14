@@ -30,10 +30,10 @@ subtitle: 'REPORT: analise_dados_JF_2021-v02'
 **Document version**
 
 
-|Version |Alterations     |
-|:-------|:---------------|
-|01      |Initial version |
-|02      |                |
+|Version |Alterations                              |
+|:-------|:----------------------------------------|
+|01      |Initial version                          |
+|02      |Operation time included in the analysis; |
 
 ---
 
