@@ -30,10 +30,10 @@ subtitle: 'REPORT: analise_dados_JF_2021-v02'
 **Document version**
 
 
-|Version |Alterations     |
-|:-------|:---------------|
-|01      |Initial version |
-|02      |                |
+|Version |Alterations                              |
+|:-------|:----------------------------------------|
+|01      |Initial version                          |
+|02      |Operation time included in the analysis; |
 
 ---
 
@@ -108,6 +108,7 @@ Packages used for survival analyses were `survival` version 3.2.11 and `survmine
 The study population was composed of 87 participants (Table 1).
 Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
 The average (SD) BMI observed was approximately 30 (4) kg/m².
+Average (SD) operation time was 68 (11) minutes.
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
 Overall, the study population contributed to a total of 150 person-years of time under observation, ranging from 7 weeks to 3.8 years.
 
