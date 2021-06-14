@@ -1,7 +1,7 @@
 ---
 title: "Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
-date: '**Date: ** 2021-06-04'
+date: '**Date: ** 2021-mm-dd'
 output:
   html_document:
     fig_caption: yes
@@ -19,7 +19,7 @@ output:
     fig_width: 6
     reference_docx: misc/style_SAR_en.docx
     toc: yes
-subtitle: 'REPORT: analise_dados_JF_2021-v01'
+subtitle: 'REPORT: analise_dados_JF_2021-v02'
 # toc-title: "Sumário"
 ---
 
@@ -33,6 +33,7 @@ subtitle: 'REPORT: analise_dados_JF_2021-v01'
 |Version |Alterations     |
 |:-------|:---------------|
 |01      |Initial version |
+|02      |                |
 
 ---
 
@@ -95,8 +96,8 @@ All significance hypothesis tests and confidence intervals computed were two-tai
 
 ### Statistical packages
 
-This analysis was performed using statistical software `R` version 4.0.4.
-Packages used for survival analyses were `survival` version 3.2.7 and `survminer` version 0.4.9.
+This analysis was performed using statistical software `R` version 4.1.0.
+Packages used for survival analyses were `survival` version 3.2.11 and `survminer` version 0.4.9.
 
 # Results
 
@@ -118,6 +119,7 @@ Overall, the study population contributed to a total of 150 person-years of time
 |W                  |50 (57%)   |
 |Age                |61 (11)    |
 |BMI                |29.8 (3.9) |
+|Op. time (min)     |68 (11)    |
 |Smoker             |20 (25%)   |
 |Unknown            |7          |
 |Joint              |           |

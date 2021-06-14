@@ -20,16 +20,16 @@ Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum
 ## Analysis report
 
 **Version 02** - [Ongoing][milestone-v02].
-**Version 02** - [Concluded][milestone-v02].
+<!-- **Version 02** - [Concluded][milestone-v02]. -->
 
-[Planning][v02-project].
+[Activities planned for report version 02][v02-project].
 
 - [Online visualization][reportviz-v02]
 - Download
 <!-- - [Download][pdf-v02] -->
 
-**Version 01** - [Done][milestone-v01].
-<!-- **Version 01** - [Concluded][milestone-v01]. -->
+<!-- **Version 01** - [Ongoing][milestone-v01]. -->
+**Version 01** - [Concluded][milestone-v01].
 
 - [Online visualization][reportviz-v01]
 - [Download][pdf-v01]
@@ -43,11 +43,11 @@ Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum
 [pdf-v01]: report/analise_dados_JF_2021-v01.pdf?raw=true
 [v01-project]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/1
 
-[milestone-v02]: https://github.com/philsf-biostat/analise_dados_JF_2021/milestone/xxx
+[milestone-v02]: https://github.com/philsf-biostat/analise_dados_JF_2021/milestone/3
 [reportviz-v02]: report/analise_dados_JF_2021-v02.md
 [docx-v02]: report/analise_dados_JF_2021-v02.docx?raw=true
 [pdf-v02]: report/analise_dados_JF_2021-v02.pdf?raw=true
-[v02-project]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/xxx
+[v02-project]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/3
 
 <!-- ## Releases -->
 

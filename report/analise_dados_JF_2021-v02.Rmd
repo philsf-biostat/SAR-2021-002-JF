@@ -1,7 +1,7 @@
 ---
 title: "Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
-date: '**Date: ** 2021-06-04'
+date: '**Date: ** 2021-mm-dd'
 output:
   html_document:
     fig_caption: yes
@@ -19,7 +19,7 @@ output:
     fig_width: 6
     reference_docx: misc/style_SAR_en.docx
     toc: yes
-subtitle: 'REPORT: analise_dados_JF_2021-v01'
+subtitle: 'REPORT: analise_dados_JF_2021-v02'
 # toc-title: "Sumário"
 ---
 
@@ -39,8 +39,10 @@ panderOptions('table.split.table', Inf)
 **Document version**
 
 ```{r, echo = FALSE}
-Version <- c("01")
-Changes <- c("Initial version")
+Version <- c("01", "02")
+Changes <- c("Initial version",
+             ""
+             )
 history <- cbind(Version, Changes)
 colnames(history) <- c("Version", "Alterations")
 # pander(history, split.cells = 70)
