@@ -13,6 +13,8 @@ person_years <- pyears(Surv(time, event) ~ 1, analytic, scale = 1)
 
 age.min <- min(analytic$age)
 age.max <- max(analytic$age)
+bmi.min <- min(analytic$bmi)
+bmi.max <- max(analytic$bmi)
 
 # tables ------------------------------------------------------------------
 
