@@ -106,7 +106,8 @@ Packages used for survival analyses were `survival` version 3.2.11 and `survmine
 
 
 The study population was composed of 87 participants (Table 1).
-Gender split was similar with 37 (43%) males and 50 (57%) females, with average (SD) age 61 (11) years.
+Gender split was similar with 37 (43%) males and 50 (57%) females.
+Participant ages ranged from 40 to 90 years with average (SD) age of 61 (11) years.
 The average (SD) BMI observed was approximately 30 (4) kg/m².
 Average (SD) operation time was 68 (11) minutes.
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
