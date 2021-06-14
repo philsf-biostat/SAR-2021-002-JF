@@ -18,6 +18,8 @@ bmi.max <- max(analytic$bmi)
 opt.min <- min(analytic$op_time)
 opt.max <- max(analytic$op_time)
 
+dups <- df.raw %>% count(name) %>% filter(n>1) %>% count()
+
 # tables ------------------------------------------------------------------
 
 desc_tab <- analytic %>%

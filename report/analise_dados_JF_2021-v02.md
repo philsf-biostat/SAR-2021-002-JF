@@ -112,6 +112,7 @@ The average (SD) BMI observed was approximately 30 (4) kg/m² with a minimum of 
 Average (SD) operation time was 68 (11) minutes with the shortest surgery lasting for 43 and the longest for 102 minutes.
 Twenty participants were smokers and the side of operation was approximately equally distributed in sides.
 Overall, the study population contributed to a total of 150 person-years of time under observation, ranging from 7 weeks to 3.8 years.
+There were 5 bilateral cases, where patients had surgery on both knees.
 
 
 |**Characteristic** |**N = 87** |
