@@ -30,10 +30,10 @@ subtitle: 'REPORT: analise_dados_JF_2021-v02'
 **Document version**
 
 
-|Version |Alterations                                                                                                                    |
-|:-------|:------------------------------------------------------------------------------------------------------------------------------|
-|01      |Initial version                                                                                                                |
-|02      |Operation time included in the analysis; minimum and maximum observations of numerical variables explicitly noted in the text; |
+|Version |Alterations                                                                                                                                                                                             |
+|:-------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|01      |Initial version                                                                                                                                                                                         |
+|02      |Operation time included in the analysis; minimum and maximum observations of numerical variables explicitly noted in the text; duplicate patients observed, and risk of bias noted in the Observations. |
 
 ---
 
