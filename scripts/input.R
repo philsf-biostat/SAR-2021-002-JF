@@ -105,3 +105,19 @@ var_label(analytic) <- var_labels
 
 # analytic[81:85, ] %>% skim()
 # new data looks ok
+
+# analytical dataset ------------------------------------------------------
+
+# analytical <- data.raw %>%
+#   # select analytic variables
+#   select(
+#     id,
+#     group,
+#     outcome,
+#   )
+
+# mockup of analytical dataset for SAP and public SAR
+analytical_mockup <- tibble( id = c( "1", "2", "3", "...", as.character(nrow(analytic)) ) ) %>%
+  left_join(analytic %>% head(0), by = "id") %>%
+  mutate_all(as.character) %>%
+  replace(is.na(.), "")

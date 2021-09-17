@@ -1,5 +1,7 @@
 # Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals
 
+Perform a time-to-failure analysis to estimate implant loosening rates in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
+
 Statistical Analysis for Jens Freitag (Helios Klinikum Berlin-Buch, 2021)
 
 ## Analyses performed
@@ -8,55 +10,47 @@ Statistical Analysis for Jens Freitag (Helios Klinikum Berlin-Buch, 2021)
 1. Inferential analysis
 1. Survival analysis
 
-**SAP** - Statistical Analysis Plan
+## Documents
+
+### Analytical Plan (SAP)
+
+<!-- - [Online visualization][sapviz-v02] -->
+<!-- - [Download][sappdf-v02] -->
 
 - [Online visualization][sapviz-v01]
-- [Download][sappdf-v01]
-<!-- - Download -->
+- [PDF][sappdf-v01]
 
-[sapviz-v01]: report/SAP_analise_dados_JF_2021-v01.md
-[sappdf-v01]: report/SAP_analise_dados_JF_2021-v01.pdf?raw=true
+### Statistical Analysis Report (SAR)
 
----
-
-## Analysis report
-
-<!-- **Version 02** - [Ongoing][milestone-v02]. -->
-**Version 02** - [Concluded][milestone-v02].
-
-- [Online visualization][reportviz-v02]
-- [Download][pdf-v02]
-<!-- - Download -->
-
-[Activities planned for report version 02][v02-project].
-
----
-
-<!-- **Version 01** - [Ongoing][milestone-v01]. -->
-**Version 01** - [Concluded][milestone-v01].
+<!-- - [Online visualization][reportviz-v02] -->
+<!-- - [Download][pdf-v02] -->
 
 - [Online visualization][reportviz-v01]
-- [Download][pdf-v01]
-<!-- - Download -->
+- [PDF][pdf-v01]
 
-[Activities planned for report version 01][v01-project].
+## Portfolio
 
-[milestone-v01]: https://github.com/philsf-biostat/analise_dados_JF_2021/milestone/1
-[reportviz-v01]: report/analise_dados_JF_2021-v01.md
-[docx-v01]: report/analise_dados_JF_2021-v01.docx?raw=true
-[pdf-v01]: report/analise_dados_JF_2021-v01.pdf?raw=true
-[v01-project]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/1
+This analysis is included in the consultant's portfolio.
+Other analyses performed can also be seen at:
 
-[milestone-v02]: https://github.com/philsf-biostat/analise_dados_JF_2021/milestone/3
-[reportviz-v02]: report/analise_dados_JF_2021-v02.md
-[docx-v02]: report/analise_dados_JF_2021-v02.docx?raw=true
-[pdf-v02]: report/analise_dados_JF_2021-v02.pdf?raw=true
-[v02-project]: https://github.com/philsf-biostat/analise_dados_JF_2021/projects/4
+https://philsf-biostat.github.io/
 
-<!-- ## Releases -->
+<!-- --- -->
 
-<!-- In the link below you can check all contents released, both finished and preliminary products. -->
+[sapviz-v01]: report/SAP-2021-002-JF-v01.md
+[sapviz-v02]: report/SAP-2021-002-JF-v02.md
+[sappdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAP-2021-002-JF-v01.pdf?raw=true
+[sappdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAP-2021-002-JF-v02.pdf?raw=true
 
-<!-- [View all released versions][releases]. -->
+[reportviz-v01]: report/SAR-2021-002-JF-v01.md
+[reportviz-v02]: report/SAR-2021-002-JF-v02.md
+[pdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAR-2021-002-JF-v01.pdf?raw=true
+[pdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAR-2021-002-JF-v02.pdf?raw=true
+[docx-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAR-2021-002-JF-v01.docx?raw=true
+[docx-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAR-2021-002-JF-v02.docx?raw=true
 
-<!-- [releases]: https://github.com/philsf-biostat/analise_dados_JF_2021/releases/ -->
+[releases]: https://github.com/philsf-biostat/SAR-2021-002-JF/releases/
+[milestone-v01]: https://github.com/philsf-biostat/SAR-2021-002-JF/milestone/mmm01
+[v01-project]: https://github.com/philsf-biostat/SAR-2021-002-JF/projects/ppp01
+[milestone-v02]: https://github.com/philsf-biostat/SAR-2021-002-JF/milestone/mmm02
+[v02-project]: https://github.com/philsf-biostat/SAR-2021-002-JF/projects/ppp02

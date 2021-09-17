@@ -1,7 +1,8 @@
 ---
-title: "Statistical Analysis Plan for Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
+title: "Analytical Plan for Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
+subtitle: 'DOCUMENT: SAP-2021-002-JF-v01'
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
-date: '**Date: ** 2021-05-16'
+date: '**Date:** 2021-05-16'
 output:
   html_document:
     fig_caption: yes
@@ -17,9 +18,8 @@ output:
     fig_caption: yes
     fig_height: 6
     fig_width: 6
-    reference_docx: misc/style-SAP.docx
+    reference_docx: misc/style_SAP_en.docx
     toc: yes
-subtitle: 'SAP: SAP_analise_dados_JF_2021-v01'
 # toc-title: "Sumário"
 ---
 
@@ -31,14 +31,14 @@ library(pander)
 library(knitr)
 library(philsfmisc)
 panderOptions('table.style', 'rmarkdown')
-panderOptions('table.split.table', Inf)
+panderOptions('table.split.table', 160)
 ```
 
 ---
 
 **Document version**
 
-```{r, echo = FALSE}
+```{r history}
 Version <- c("01")
 Changes <- c("Initial version")
 history <- cbind(Version, Changes)
@@ -49,10 +49,11 @@ kable(history)
 
 ---
 
-
 # Abbreviations
 
-- BMI: body mass index
+- BMI: body-mass index
+- CI: 95% confidence interval
+- SD: standard deviation
 
 # Introduction
 
@@ -64,11 +65,13 @@ Perform a time-to-failure analysis to estimate implant loosening rates in a samp
 
 ## Hypotheses
 
-# Data cleaning
+# Data
 
-```{r data, include=FALSE}
+```{r cleaning, include=FALSE}
 source("scripts/input.R", encoding = 'UTF-8')
 ```
+
+## Raw data
 
 The data will be pre-processed, rearranged and cleaned as follows:
 
@@ -82,11 +85,10 @@ The data will be pre-processed, rearranged and cleaned as follows:
 - All dates will be standardized and invalid values removed
   - All invalid values like "xxxxxxxxxx",  "xxxxxxxxxxxxxxx", etc will be removed before data processing;
 - Age will be computed as whole years between birth and first surgery, with calendar accuracy;
-- 
   
 Two observations appear to be test data (Names: Patient 1, Patient 2) and will be removed.
 
-# Study variables
+## Analytical dataset
 
 The analytic dataset will be composed from a selection of variables obtained from the original dataset.
 Study variables selected for this analysis are:
@@ -114,7 +116,16 @@ pander(tab_data, split.table = Inf)
 
 Table: **Table1** Mock-up example of analytic dataset
 
-The analytic dataset will be included in the private version of the report, and will be omitted from the public version of the report.
+The analytical dataset will be included in the private version of the report, and will be omitted from the public version of the report.
+
+```{r analytical data}
+# analytical_mockup %>%
+  # pander(caption = "**Table 1** Analytical dataset structure after variable selection and cleaning.")
+```
+
+<!-- The analytical dataset will be included in the private version of the report, and will be omitted from the public version of the report. -->
+
+# Study variables
 
 ## Primary and secondary outcomes
 
@@ -162,7 +173,8 @@ Study outcomes will not be adjusted for covariates like age, gender or BMI.
 ## Significance and Confidence Intervals
 
 All analyses will be performed using the significance level of 5%.
-All significance hypothesis tests and confidence intervals computed will be two-tailed.
+All significance hypothesis tests and confidence intervals computed will be
+two-tailed.
 
 ## Study size and Power
 
@@ -170,7 +182,7 @@ N/A.
 
 ### Statistical packages
 
-This analysis will be performed using statistical software `R` version `r getRversion()`.
+This analysis will be performed using statistical software `R` version 4.1.0.
 
 # Exceptions and Observations
 
@@ -178,8 +190,13 @@ None.
 
 # References
 
-N/A.
+- **SAR-2021-002-JF-v01** -- Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals
+<!-- - Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd Ed.). New York: Routledge. -->
 
 # Appendix
 
-N/A.
+## Availability
+
+Both this analytical plan and the corresponding analysis report (**SAR-2021-002-JF-v01**) can be downloaded in the following address:
+
+https://github.com/philsf-biostat/SAR-2021-002-JF/
