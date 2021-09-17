@@ -1,7 +1,8 @@
 ---
 title: "Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals"
+subtitle: 'DOCUMENT: SAR-2021-002-JF-v02'
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
-date: '**Date: ** 2021-06-14'
+date: '**Date:** 2021-06-14'
 output:
   html_document:
     fig_caption: yes
@@ -19,7 +20,6 @@ output:
     fig_width: 6
     reference_docx: misc/style_SAR_en.docx
     toc: yes
-subtitle: 'REPORT: analise_dados_JF_2021-v02'
 # toc-title: "Sumário"
 ---
 
@@ -31,14 +31,14 @@ library(pander)
 library(knitr)
 library(philsfmisc)
 panderOptions('table.style', 'rmarkdown')
-panderOptions('table.split.table', Inf)
+panderOptions('table.split.table', 160)
 ```
 
 ---
 
 **Document version**
 
-```{r, echo = FALSE}
+```{r history}
 Version <- c("01", "02")
 Changes <- c("Initial version",
              "Operation time included in the analysis; minimum and maximum observations of numerical variables explicitly noted in the text; duplicate patients observed, and risk of bias noted in the Observations."
@@ -59,7 +59,7 @@ kable(history)
 
 # Introduction
 
-## Objective
+## Objectives
 
 Perform a time-to-failure analysis to estimate implant loosening rates in a sample of knee prosthesis patient data from the Helios Klinikum Berlin-Buch hospitals
 
@@ -112,8 +112,8 @@ All significance hypothesis tests and confidence intervals computed were two-tai
 
 ### Statistical packages
 
-This analysis was performed using statistical software `R` version `r getRversion()`.
-Packages used for survival analyses were `survival` version `r packageVersion("survival")` and `survminer` version `r packageVersion("survminer")`.
+This analysis was performed using statistical software `R` version 4.1.0.
+Packages used for survival analyses were `survival` version 3.2.11 and `survminer` version 0.4.9.
 
 # Results
 
@@ -137,10 +137,10 @@ Overall, the study population contributed to a total of `r round(person_years$py
 There were `r dups` bilateral cases, where patients had surgery on both knees.
 
 ```{r}
-desc_tab %>% as_kable()
+desc_tab %>% as_kable(caption = "**Table 1** Patient characteristics.")
 ```
 
-Table: **Table 1** Patient characteristics.
+
 
 ## Prosthesis loosening rates
 
@@ -162,15 +162,17 @@ Table 2 summarizes the estimates for 3 years of follow up.
 There were no significant differences among groups when comparing genders, smoking status or the knee side operated on.
 
 ```{r survival table, warning=FALSE}
-inf_tab %>% as_kable()
+inf_tab %>% as_kable(
+  caption = "**Table 2** Cumulative hazard of prosthesis loosening after 3 years of follow up.
+p-value: groups compared with the Log-rank test."
+)
 ```
 
-Table: **Table 2** Cumulative hazard of prosthesis loosening after 3 years of follow up.
-p-value: groups compared with the Log-rank test.
 
-![](../figures/km_overall.png)
-
-**Figure 1** Cumulative hazard of prosthesis loosening.
+```{r fig1, fig.cap="**Figure 1** Cumulative hazard of prosthesis loosening."}
+# ![Age](../figures/distr_age.png)
+knitr::include_graphics("../figures/km_overall.png", error = FALSE)
+```
 
 # Exceptions and Observations
 
@@ -193,27 +195,45 @@ These events represent a raw estimate of cumulative hazard of implant loosening 
 
 # References
 
-- **SAP_analise_dados_JF_2021-v01** - Statistical Analysis Plan for Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals.
+- **SAP-2021-002-JF-v01** - Statistical Analysis Plan for Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals.
+<!-- - Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd Ed.). New York: Routledge. -->
 
 # Appendix
 
 ## Exploratory data analysis
 
-![](../figures/km_gender.png)
+```{r A1, fig.cap="**Figure A1** Prostheses loosening by gender."}
+# ![](../figures/km_gender.png)
+knitr::include_graphics("../figures/km_gender.png", error = FALSE)
+```
 
-**Figure 2** Prostheses loosening by gender.
+```{r A2, fig.cap="**Figure A2** Prosthesis loosening by smoking status."}
+# ![](../figures/km_smoker.png)
+knitr::include_graphics("../figures/km_smoker.png", error = FALSE)
+```
 
-![](../figures/km_smoker.png)
+```{r A3, fig.cap="**Figure A3** Prosthesis loosening by joint operated."}
+# ![](../figures/km_joint.png)
+knitr::include_graphics("../figures/km_joint.png", error = FALSE)
+```
 
-**Figure 3** Prosthesis loosening by smoking status.
+## Availability
 
-![](../figures/km_joint.png)
-**Figure 4** Prosthesis loosening by joint operated.
+Both this document and the corresponding analytical plan (**SAP-2021-002-JF-v01**) can be downloaded in the following address:
 
-## Analytical data-set
+<!-- This document can be downloaded in the following address: -->
+
+https://github.com/philsf-biostat/SAR-2021-002-JF/
+
+## Analytical dataset
 
 Due to confidentiality the data-set used in this analysis cannot be shared online in the public version of this report.
 
 ```{r data}
-# pander(analytic)
+# print analytical of analytical_mockup whether it is the private or public version of the SAR
+
+# analytical %>%
+#   pander(caption = "**Table A1** Analytical dataset")
+analytical_mockup %>%
+  pander(caption = "**Table A1** Analytical dataset structure")
 ```
