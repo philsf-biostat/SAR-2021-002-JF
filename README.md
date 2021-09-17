@@ -39,15 +39,15 @@ https://philsf-biostat.github.io/
 
 [sapviz-v01]: report/SAP-2021-002-JF-v01.md
 [sapviz-v02]: report/SAP-2021-002-JF-v02.md
-[sappdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAP-2021-002-JF-v01.pdf?raw=true
-[sappdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAP-2021-002-JF-v02.pdf?raw=true
+[sappdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/raw/main/report/SAP-2021-002-JF-v01.pdf
+[sappdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/raw/main/report/SAP-2021-002-JF-v02.pdf
 
 [reportviz-v01]: report/SAR-2021-002-JF-v01.md
 [reportviz-v02]: report/SAR-2021-002-JF-v02.md
-[pdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAR-2021-002-JF-v01.pdf?raw=true
-[pdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAR-2021-002-JF-v02.pdf?raw=true
-[docx-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAR-2021-002-JF-v01.docx?raw=true
-[docx-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/report/SAR-2021-002-JF-v02.docx?raw=true
+[pdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/raw/main/report/SAR-2021-002-JF-v01.pdf
+[pdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/raw/main/report/SAR-2021-002-JF-v02.pdf
+[docx-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/raw/main/report/SAR-2021-002-JF-v01.docx
+[docx-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2021-002-JF/raw/main/report/SAR-2021-002-JF-v02.docx
 
 [releases]: https://github.com/philsf-biostat/SAR-2021-002-JF/releases/
 [milestone-v01]: https://github.com/philsf-biostat/SAR-2021-002-JF/milestone/mmm01
