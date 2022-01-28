@@ -15,18 +15,18 @@ Statistical Analysis for Jens Freitag (Helios Klinikum Berlin-Buch, 2021)
 ### Analytical Plan (SAP)
 
 <!-- - [Online visualization][sapviz-v02] -->
-<!-- - [Download][sappdf-v02] -->
+<!-- - [PDF][sappdf-v02] -->
 
 - [Online visualization][sapviz-v01]
 - [PDF][sappdf-v01]
 
 ### Statistical Analysis Report (SAR)
 
-<!-- - [Online visualization][reportviz-v02] -->
-<!-- - [Download][pdf-v02] -->
+- [Online visualization][reportviz-v02]
+- [PDF][pdf-v02]
 
-- [Online visualization][reportviz-v01]
-- [PDF][pdf-v01]
+<!-- - [Online visualization][reportviz-v01] -->
+<!-- - [PDF][pdf-v01] -->
 
 ## Portfolio
 
