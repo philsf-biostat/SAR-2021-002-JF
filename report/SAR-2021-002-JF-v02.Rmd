@@ -36,6 +36,10 @@ panderOptions('table.split.table', 160)
 
 ---
 
+\newpage
+
+**Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals**
+
 **Document version**
 
 ```{r history}
@@ -223,7 +227,13 @@ Both this document and the corresponding analytical plan (**SAP-2021-002-JF-v01*
 
 <!-- This document can be downloaded in the following address: -->
 
-https://github.com/philsf-biostat/SAR-2021-002-JF/
+<https://philsf-biostat.github.io/SAR-2021-002-JF/>
+
+<!-- The client has requested that this analysis be kept confidential. -->
+<!-- Both this document and the corresponding analytical plan (**SAP-2021-002-JF-v01**) are therefore not published online and only the title and year of the analysis will be included in the consultant's Portfolio. -->
+<!-- The portfolio is available at: -->
+
+<!-- <https://philsf-biostat.github.io/> -->
 
 ## Analytical dataset
 
