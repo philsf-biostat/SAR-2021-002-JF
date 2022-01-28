@@ -33,7 +33,7 @@ Statistical Analysis for Jens Freitag (Helios Klinikum Berlin-Buch, 2021)
 This analysis is included in the consultant's portfolio.
 Other analyses performed can also be seen at:
 
-https://philsf-biostat.github.io/
+<https://philsf-biostat.github.io/>
 
 <!-- --- -->
 
